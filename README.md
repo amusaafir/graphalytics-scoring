@@ -6,9 +6,9 @@ Please refer to the [Graphalytics competition specification](http://beta.graphal
 ### Requirements
 
 * Node.js (tested using v8.6.0).
-* Graphalytics benchmark results output (similar as the one in `example-results` directory.
+* Graphalytics benchmark results output from 0.9.0 (similar as the one in `example-results` directory).
 
-### Setup & Run
+### Run
 
 1.  `git clone https://github.com/amusaafir/graphalytics-scoring.git`
 2. `cd graphalytics-scoring`
