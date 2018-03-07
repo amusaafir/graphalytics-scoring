@@ -25,4 +25,6 @@ Specify the `scoring` parameter as **tournament** to compute the results for a t
 * The `results` parameter specifies the folder (relative/absolute) path of the Graphalytics benchmark results.
 * The competition results are placed in the `output`folder.
 
+### Tests
 
+Run `npm test` to run all the tests.
