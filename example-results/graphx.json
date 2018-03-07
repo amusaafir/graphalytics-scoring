@@ -1,0 +1,1166 @@
+{
+  "id": "b855588",
+  "specification": "0.9.0",
+  "description": "",
+  "system": {
+    "platform": {
+      "name": "GraphX",
+      "acronym": "graphx",
+      "version": "1.6.0",
+      "link": "https://github.com/apache/spark"
+    },
+    "environment": {
+      "name": "",
+      "acronym": "",
+      "version": "",
+      "link": "",
+      "machines": [
+        {
+          "quantity": "",
+          "cpu": "",
+          "memory": "",
+          "network": "",
+          "storage": ""
+        }
+      ]
+    },
+    "tool": {
+      "graphalytics-core": {
+        "name": "graphalytics-core",
+        "version": "1.0",
+        "link": "https://github.com/ldbc/ldbc_graphalytics"
+      },
+      "graphalytics-platforms-graphx": {
+        "name": "graphalytics-platforms-graphx",
+        "version": "0.2-SNAPSHOT",
+        "link": "https://github.com/atlarge-research/graphalytics-platforms-graphx"
+      }
+    },
+    "pricing": "0"
+  },
+  "benchmark": {
+    "type": "custom",
+    "name": "Custom Benchmark",
+    "duration": "56383420",
+    "target_scale": "L",
+    "timeout": "3600",
+    "resources": {},
+    "output": {
+      "required": "-",
+      "directory": "./output/"
+    },
+    "validation": {
+      "required": "-",
+      "directory": "/var/scratch/wlngai/graphalytics/validation-graphs"
+    },
+    "configurations": {
+      "graph.datagen-8_9-fb.edge-properties.types": "real",
+      "environment.machine.memory": "",
+      "graph.datagen-8_3-zf.cdlp.max-iterations": "10",
+      "graph.datagen-9_4-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_9-fb.sssp.source-vertex": "6",
+      "graph.graph500-24.edge-file": "graph500-24.e",
+      "graph.datagen-8_4-fb.vertex-file": "datagen-8_4-fb.v",
+      "graph.datagen-9_1-fb.meta.vertices": "16087483",
+      "graph.example-undirected.meta.vertices": "9",
+      "graph.com-friendster.cdlp.max-iterations": "10",
+      "graph.datagen-7_9-fb.vertex-file": "datagen-7_9-fb.v",
+      "environment.machine.storage": "",
+      "graph.datagen-8_7-zf.bfs.source-vertex": "6",
+      "benchmark.runner.max-memory": "",
+      "graph.datagen-8_3-zf.meta.vertices": "53525014",
+      "graph.datagen-8_1-fb.algorithms": "bfs",
+      "graph.datagen-7_7-zf.meta.edges": "32791267",
+      "graph.datagen-8_7-zf.vertex-file": "datagen-8_7-zf.v",
+      "graph.datagen-8_8-zf.meta.vertices": "168308893",
+      "graph.datagen-9_2-zf.vertex-file": "datagen-9_2-zf.v",
+      "graph.dota-league.cdlp.max-iterations": "10",
+      "graph.datagen-8_5-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.edge-properties.types": "real",
+      "graph.graph500-22.cdlp.max-iterations": "10",
+      "graph.graph500-23.algorithms": "bfs",
+      "graph.graph500-22.edge-file": "graph500-22.e",
+      "graph.datagen-8_0-fb.edge-properties.names": "weight",
+      "graph.datagen-8_0-fb.meta.vertices": "1706561",
+      "graph.example-undirected.edge-properties.names": "weight",
+      "graph.datagen-8_0-fb.algorithms": "bfs",
+      "graph.datagen-9_4-fb.edge-properties.types": "real",
+      "graph.datagen-7_7-zf.algorithms": "bfs",
+      "graph.datagen-8_0-fb.bfs.source-vertex": "6",
+      "graph.twitter_mpi.cdlp.max-iterations": "10",
+      "graph.graph500-22.bfs.source-vertex": "248533",
+      "graph.example-directed.bfs.source-vertex": "1",
+      "graph.datagen-9_1-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.vertex-file": "datagen-8_5-fb.v",
+      "graph.datagen-8_9-fb.cdlp.max-iterations": "10",
+      "graph.com-friendster.meta.edges": "1806067135",
+      "graph.graph500-26.meta.vertices": "32804978",
+      "graph.datagen-7_8-zf.algorithms": "bfs",
+      "graph.datagen-9_2-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_2-zf.sssp.source-vertex": "6",
+      "graph.datagen-7_5-fb.algorithms": "bfs",
+      "graph.graph500-24.bfs.source-vertex": "2592222",
+      "graph.datagen-7_6-fb.edge-file": "datagen-7_6-fb.e",
+      "graph.datagen-8_8-zf.bfs.source-vertex": "6",
+      "graph.dota-league.meta.vertices": "61170",
+      "graph.datagen-7_7-zf.meta.vertices": "13180508",
+      "graph.datagen-7_5-fb.meta.edges": "34185747",
+      "graph.example-directed.edge-properties.types": "real",
+      "graph.datagen-7_8-zf.edge-file": "datagen-7_8-zf.e",
+      "graph.datagen-9_2-zf.pr.damping-factor": "0.85",
+      "graph.datagen-9_3-zf.pr.num-iterations": "10",
+      "graph.datagen-9_3-zf.edge-properties.types": "real",
+      "platform.graphx.job.executor-cores": "4",
+      "graph.datagen-7_5-fb.edge-properties.names": "weight",
+      "graph.datagen-8_2-zf.bfs.source-vertex": "6",
+      "graph.twitter_mpi.meta.edges": "1963263508",
+      "graph.datagen-7_7-zf.edge-properties.names": "weight",
+      "graph.dota-league.edge-properties.types": "real",
+      "graph.datagen-9_4-fb.edge-properties.names": "weight",
+      "graph.datagen-9_3-zf.vertex-file": "datagen-9_3-zf.v",
+      "graph.datagen-7_9-fb.edge-properties.names": "weight",
+      "graph.datagen-8_9-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_2-zf.sssp.source-vertex": "6",
+      "graph.graph500-26.cdlp.max-iterations": "10",
+      "graph.graph500-26.bfs.source-vertex": "62455266",
+      "graph.datagen-9_4-fb.meta.vertices": "29310565",
+      "graph.datagen-8_4-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_1-fb.meta.edges": "134267822",
+      "graph.example-undirected.sssp.source-vertex": "2",
+      "graph.twitter_mpi.algorithms": "bfs",
+      "graph.datagen-7_5-fb.directed": "false",
+      "graph.graph500-25.directed": "false",
+      "graph.datagen-9_1-fb.pr.num-iterations": "10",
+      "graph.datagen-7_9-fb.edge-file": "datagen-7_9-fb.e",
+      "graph.datagen-8_4-fb.bfs.source-vertex": "6",
+      "graphs.cache-directory": "/var/scratch/musaafir/newgraphmat/output/cache",
+      "graph.dota-league.pr.damping-factor": "0.85",
+      "graph.datagen-9_3-zf.edge-properties.names": "weight",
+      "graph.twitter_mpi.edge-file": "twitter_mpi.e",
+      "graph.datagen-7_5-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.directed": "false",
+      "graph.datagen-8_9-fb.directed": "false",
+      "graph.datagen-8_5-fb.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.meta.edges": "42162988",
+      "graph.datagen-8_2-zf.pr.num-iterations": "10",
+      "graph.datagen-8_0-fb.meta.edges": "107507376",
+      "graph.datagen-9_0-fb.vertex-file": "datagen-9_0-fb.v",
+      "graph.graph500-23.bfs.source-vertex": "7348998",
+      "graph.datagen-9_1-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.edge-file": "datagen-8_4-fb.e",
+      "graph.datagen-9_0-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_6-fb.vertex-file": "datagen-8_6-fb.v",
+      "graph.datagen-8_1-fb.directed": "false",
+      "graph.example-undirected.directed": "false",
+      "graph.datagen-7_9-fb.directed": "false",
+      "platform.acronym": "graphx",
+      "graph.datagen-7_5-fb.edge-file": "datagen-7_5-fb.e",
+      "graph.com-friendster.edge-file": "com-friendster.e",
+      "graph.dota-league.sssp.weight-property": "weight",
+      "graph.datagen-7_9-fb.meta.vertices": "1387587",
+      "graph.datagen-8_1-fb.edge-properties.names": "weight",
+      "graph.graph500-25.vertex-file": "graph500-25.v",
+      "graph.datagen-8_2-zf.algorithms": "bfs",
+      "graph.com-friendster.pr.damping-factor": "0.85",
+      "graph.datagen-9_1-fb.directed": "false",
+      "graph.datagen-9_3-zf.meta.edges": "1309998551",
+      "graph.example-undirected.bfs.source-vertex": "2",
+      "graph.datagen-7_6-fb.pr.damping-factor": "0.85",
+      "environment.machine.cpu": "",
+      "graph.datagen-7_7-zf.sssp.weight-property": "weight",
+      "environment.acronym": "",
+      "graph.dota-league.meta.edges": "50870313",
+      "graph.datagen-8_1-fb.vertex-file": "datagen-8_1-fb.v",
+      "graph.datagen-8_7-zf.pr.num-iterations": "10",
+      "graph.datagen-9_0-fb.meta.edges": "1049527225",
+      "graph.datagen-7_8-zf.meta.vertices": "16521886",
+      "graph.example-undirected.edge-file": "example-undirected.e",
+      "graph.datagen-8_8-zf.edge-file": "datagen-8_8-zf.e",
+      "graph.graph500-24.vertex-file": "graph500-24.v",
+      "graph.datagen-7_6-fb.algorithms": "bfs",
+      "graph.graph500-25.meta.vertices": "17062472",
+      "graph.datagen-7_8-zf.directed": "false",
+      "graph.datagen-9_3-zf.sssp.weight-property": "weight",
+      "graph.datagen-8_5-fb.bfs.source-vertex": "6",
+      "graph.example-directed.vertex-file": "example-directed.v",
+      "graph.datagen-8_3-zf.directed": "false",
+      "graph.example-directed.algorithms": "bfs",
+      "graph.datagen-7_6-fb.edge-properties.names": "weight",
+      "graph.datagen-8_1-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_9-fb.edge-properties.names": "weight",
+      "graph.example-undirected.meta.edges": "12",
+      "graph.datagen-8_8-zf.directed": "false",
+      "graph.datagen-8_9-fb.algorithms": "bfs",
+      "graph.graph500-23.pr.damping-factor": "0.85",
+      "graph.datagen-8_7-zf.directed": "false",
+      "graph.datagen-8_0-fb.vertex-file": "datagen-8_0-fb.v",
+      "graph.graph500-24.meta.vertices": "8870942",
+      "graph.datagen-8_6-fb.edge-properties.names": "weight",
+      "platform.hadoop.home": "/var/scratch/musaafir/wing-giraph-v2/realgiraph/yarn",
+      "benchmark.runner.port": "8012",
+      "graph.datagen-7_9-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_0-fb.edge-properties.types": "real",
+      "platform.hadoop.hdfs.directory": "graphalytics",
+      "graph.datagen-8_3-zf.algorithms": "bfs",
+      "graph.datagen-7_5-fb.sssp.source-vertex": "6",
+      "graph.com-friendster.directed": "false",
+      "graph.datagen-9_2-zf.meta.edges": "1042340732",
+      "graph.datagen-7_7-zf.directed": "false",
+      "graph.datagen-8_0-fb.sssp.weight-property": "weight",
+      "benchmark.description": "",
+      "graph.datagen-8_3-zf.vertex-file": "datagen-8_3-zf.v",
+      "graph.graph500-22.algorithms": "bfs",
+      "graph.graph500-23.pr.num-iterations": "10",
+      "benchmark.custom.validation-required": "true",
+      "graph.datagen-8_1-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_0-fb.meta.vertices": "12857671",
+      "graph.datagen-8_2-zf.sssp.weight-property": "weight",
+      "graph.datagen-7_7-zf.vertex-file": "datagen-7_7-zf.v",
+      "graph.datagen-8_5-fb.meta.vertices": "4599739",
+      "graph.graph500-24.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_1-fb.edge-properties.names": "weight",
+      "graph.datagen-8_8-zf.algorithms": "bfs",
+      "benchmark.custom.graphs": "graph500-25",
+      "graph.datagen-8_9-fb.edge-file": "datagen-8_9-fb.e",
+      "graph.datagen-8_7-zf.cdlp.max-iterations": "10",
+      "graph.example-directed.sssp.source-vertex": "1",
+      "graph.datagen-9_4-fb.pr.damping-factor": "0.85",
+      "graph.datagen-9_2-zf.edge-properties.names": "weight",
+      "environment.machine.network": "",
+      "graph.twitter_mpi.vertex-file": "twitter_mpi.v",
+      "graph.datagen-8_1-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_3-zf.pr.damping-factor": "0.85",
+      "graph.datagen-8_1-fb.pr.num-iterations": "10",
+      "graph.datagen-8_2-zf.pr.damping-factor": "0.85",
+      "graph.graph500-26.edge-file": "graph500-26.e",
+      "graph.datagen-9_1-fb.meta.edges": "1342158397",
+      "graph.datagen-9_3-zf.directed": "false",
+      "graph.datagen-8_3-zf.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.pr.damping-factor": "0.85",
+      "graph.graph500-25.algorithms": "bfs",
+      "graph.datagen-8_3-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_1-fb.sssp.weight-property": "weight",
+      "graph.graph500-23.meta.vertices": "4610222",
+      "graph.graph500-26.directed": "false",
+      "graph.datagen-8_0-fb.edge-properties.types": "real",
+      "environment.link": "",
+      "graph.dota-league.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.meta.edges": "41025255",
+      "graph.datagen-9_4-fb.meta.edges": "2588948669",
+      "graph.datagen-8_4-fb.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.directed": "false",
+      "platform.link": "https://github.com/apache/spark",
+      "graph.datagen-9_1-fb.pr.damping-factor": "0.85",
+      "benchmark.executor.port": "8011",
+      "graph.datagen-8_0-fb.pr.damping-factor": "0.85",
+      "graph.graph500-22.pr.num-iterations": "10",
+      "graph.datagen-8_2-zf.edge-file": "datagen-8_2-zf.e",
+      "graph.datagen-8_4-fb.edge-properties.types": "real",
+      "graph.datagen-8_6-fb.directed": "false",
+      "graph.example-directed.cdlp.max-iterations": "2",
+      "graph.datagen-9_1-fb.edge-file": "datagen-9_1-fb.e",
+      "benchmark.custom.output-required": "true",
+      "graph.graph500-23.meta.edges": "129333677",
+      "graph.datagen-8_2-zf.edge-properties.names": "weight",
+      "graph.com-friendster.algorithms": "bfs",
+      "graph.graph500-23.directed": "false",
+      "graph.datagen-8_7-zf.algorithms": "bfs",
+      "graph.datagen-7_6-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.meta.vertices": "3809084",
+      "graph.datagen-7_6-fb.bfs.source-vertex": "6",
+      "graph.datagen-8_3-zf.edge-file": "datagen-8_3-zf.e",
+      "graph.graph500-22.meta.vertices": "2396657",
+      "graph.com-friendster.bfs.source-vertex": "101",
+      "graph.datagen-7_9-fb.meta.edges": "85670523",
+      "environment.machine.quantity": "",
+      "graph.datagen-7_5-fb.sssp.weight-property": "weight",
+      "graph.graph500-24.algorithms": "bfs",
+      "graph.example-undirected.pr.num-iterations": "2",
+      "graphs.validation-directory": "/var/scratch/wlngai/graphalytics/validation-graphs",
+      "graph.example-directed.sssp.weight-property": "weight",
+      "graph.datagen-8_1-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_6-fb.algorithms": "bfs",
+      "graph.datagen-8_7-zf.edge-properties.names": "weight",
+      "graph.datagen-8_9-fb.pr.num-iterations": "10",
+      "graph.datagen-8_0-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_1-fb.edge-properties.types": "real",
+      "graph.graph500-23.edge-file": "graph500-23.e",
+      "graph.datagen-8_7-zf.meta.vertices": "145050709",
+      "graph.datagen-8_6-fb.meta.edges": "421988619",
+      "graph.datagen-8_9-fb.meta.vertices": "10572901",
+      "graph.datagen-8_9-fb.pr.damping-factor": "0.85",
+      "graph.dota-league.bfs.source-vertex": "287770",
+      "graph.datagen-7_6-fb.meta.vertices": "754147",
+      "graph.datagen-7_9-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_5-fb.meta.edges": "332026902",
+      "graph.datagen-8_6-fb.sssp.weight-property": "weight",
+      "benchmark.name": "Custom Benchmark",
+      "graph.datagen-7_7-zf.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.pr.num-iterations": "10",
+      "graph.datagen-8_5-fb.edge-properties.names": "weight",
+      "benchmark.custom.timeout": "3600",
+      "graph.datagen-7_5-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.edge-file": "datagen-9_0-fb.e",
+      "graph.datagen-8_1-fb.edge-file": "datagen-8_1-fb.e",
+      "graph.datagen-8_8-zf.meta.edges": "413354288",
+      "graph.datagen-7_8-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_1-fb.cdlp.max-iterations": "10",
+      "graph.graph500-24.cdlp.max-iterations": "10",
+      "graph.graph500-25.pr.damping-factor": "0.85",
+      "graph.example-undirected.pr.damping-factor": "0.85",
+      "platform.name": "GraphX",
+      "benchmark.custom.target-scale": "L",
+      "graph.datagen-9_2-zf.bfs.source-vertex": "6",
+      "graph.graph500-25.edge-file": "graph500-25.e",
+      "graph.datagen-8_3-zf.edge-properties.types": "real",
+      "platform.graphx.job.executor-memory": "10g",
+      "graph.datagen-9_4-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_2-zf.meta.vertices": "43734497",
+      "graph.datagen-8_2-zf.vertex-file": "datagen-8_2-zf.v",
+      "graph.graph500-26.meta.edges": "1051922853",
+      "graph.graph500-25.cdlp.max-iterations": "10",
+      "graph.datagen-9_4-fb.cdlp.max-iterations": "10",
+      "graph.datagen-9_1-fb.algorithms": "bfs",
+      "graph.datagen-8_9-fb.vertex-file": "datagen-8_9-fb.v",
+      "benchmark.custom.algorithms": "bfs",
+      "graph.datagen-9_3-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_4-fb.vertex-file": "datagen-9_4-fb.v",
+      "graph.datagen-9_2-zf.directed": "false",
+      "graph.datagen-9_2-zf.edge-file": "datagen-9_2-zf.e",
+      "graph.datagen-9_3-zf.edge-file": "datagen-9_3-zf.e",
+      "graph.example-directed.directed": "true",
+      "graph.datagen-8_1-fb.pr.damping-factor": "0.85",
+      "graph.datagen-9_2-zf.cdlp.max-iterations": "10",
+      "graph.graph500-26.algorithms": "bfs",
+      "graph.datagen-7_9-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.algorithms": "bfs",
+      "environment.name": "",
+      "graph.datagen-8_3-zf.sssp.source-vertex": "6",
+      "graphs.output-directory": "./output/",
+      "graph.datagen-8_4-fb.pr.damping-factor": "0.85",
+      "graph.example-directed.meta.edges": "17",
+      "graph.datagen-8_5-fb.pr.num-iterations": "10",
+      "graph.example-undirected.sssp.weight-property": "weight",
+      "graph.example-directed.pr.num-iterations": "2",
+      "graph.datagen-7_6-fb.cdlp.max-iterations": "10",
+      "graph.graph500-22.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.pr.num-iterations": "10",
+      "graph.graph500-22.meta.edges": "64155735",
+      "graph.datagen-9_2-zf.meta.vertices": "434943376",
+      "graph.datagen-7_7-zf.pr.damping-factor": "0.85",
+      "graph.datagen-7_8-zf.edge-properties.types": "real",
+      "graph.datagen-8_4-fb.algorithms": "bfs",
+      "graph.datagen-8_8-zf.pr.damping-factor": "0.85",
+      "graph.datagen-7_8-zf.sssp.source-vertex": "6",
+      "graph.datagen-7_5-fb.vertex-file": "datagen-7_5-fb.v",
+      "graph.datagen-8_1-fb.meta.vertices": "2072117",
+      "graph.datagen-7_9-fb.sssp.weight-property": "weight",
+      "graph.dota-league.directed": "false",
+      "graph.twitter_mpi.bfs.source-vertex": "420",
+      "graph.datagen-8_6-fb.sssp.source-vertex": "6",
+      "graph.datagen-7_7-zf.cdlp.max-iterations": "10",
+      "graph.datagen-8_9-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.edge-properties.names": "weight",
+      "graph.graph500-24.pr.num-iterations": "10",
+      "graph.graph500-24.meta.edges": "260379520",
+      "graph.graph500-26.pr.damping-factor": "0.85",
+      "graph.datagen-8_3-zf.edge-properties.names": "weight",
+      "graph.datagen-7_8-zf.pr.num-iterations": "10",
+      "graph.datagen-7_9-fb.algorithms": "bfs",
+      "graph.datagen-8_6-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.vertex-file": "datagen-7_8-zf.v",
+      "graph.datagen-7_5-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.edge-file": "datagen-8_0-fb.e",
+      "graph.datagen-8_7-zf.edge-properties.types": "real",
+      "graph.datagen-8_6-fb.cdlp.max-iterations": "10",
+      "graph.dota-league.edge-file": "dota-league.e",
+      "graph.graph500-26.vertex-file": "graph500-26.v",
+      "benchmark.type": "custom",
+      "graph.datagen-9_0-fb.algorithms": "bfs",
+      "graph.datagen-8_7-zf.sssp.source-vertex": "6",
+      "graph.graph500-24.directed": "false",
+      "graph.datagen-8_6-fb.meta.vertices": "5667674",
+      "graph.datagen-8_5-fb.edge-properties.types": "real",
+      "graph.datagen-9_4-fb.directed": "false",
+      "graph.example-directed.edge-file": "example-directed.e",
+      "graph.datagen-7_5-fb.pr.num-iterations": "10",
+      "graph.datagen-7_6-fb.vertex-file": "datagen-7_6-fb.v",
+      "graph.datagen-8_2-zf.cdlp.max-iterations": "10",
+      "graph.datagen-9_0-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_7-zf.edge-file": "datagen-8_7-zf.e",
+      "graph.dota-league.sssp.source-vertex": "287770",
+      "graph.datagen-9_2-zf.edge-properties.types": "real",
+      "graph.graph500-23.vertex-file": "graph500-23.v",
+      "graph.graph500-22.vertex-file": "graph500-22.v",
+      "graph.datagen-7_9-fb.sssp.source-vertex": "6",
+      "graph.datagen-7_7-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_1-fb.bfs.source-vertex": "6",
+      "graph.datagen-8_3-zf.pr.damping-factor": "0.85",
+      "graphs.names": "[dota-league, com-friendster, twitter_mpi, graph500-22, graph500-23, graph500-24, graph500-25, graph500-26, datagen-7_5-fb, datagen-7_6-fb, datagen-7_7-zf, datagen-7_8-zf, datagen-7_9-fb, datagen-8_0-fb, datagen-8_1-fb, datagen-8_2-zf, datagen-8_3-zf, datagen-8_4-fb, datagen-8_5-fb, datagen-8_6-fb, datagen-8_7-zf, datagen-8_8-zf, datagen-8_9-fb, datagen-9_0-fb, datagen-9_1-fb, datagen-9_2-zf, datagen-9_3-zf, datagen-9_4-fb, example-directed, example-undirected]",
+      "graph.twitter_mpi.pr.damping-factor": "0.85",
+      "graph.datagen-8_2-zf.directed": "false",
+      "graph.datagen-9_0-fb.sssp.weight-property": "weight",
+      "graph.datagen-7_9-fb.pr.num-iterations": "10",
+      "graph.datagen-9_3-zf.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_3-zf.sssp.weight-property": "weight",
+      "graph.dota-league.edge-properties.names": "weight",
+      "graph.datagen-8_7-zf.meta.edges": "340157363",
+      "graph.datagen-7_8-zf.bfs.source-vertex": "6",
+      "graph.com-friendster.meta.vertices": "65608366",
+      "graph.graph500-22.directed": "false",
+      "platform.graphx.job.num-executors": "64",
+      "graph.graph500-23.cdlp.max-iterations": "10",
+      "graph.datagen-8_6-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_4-fb.edge-file": "datagen-9_4-fb.e",
+      "graph.com-friendster.pr.num-iterations": "10",
+      "graph.twitter_mpi.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.edge-properties.names": "weight",
+      "graph.datagen-8_2-zf.edge-properties.types": "real",
+      "graph.datagen-9_0-fb.bfs.source-vertex": "6",
+      "graph.datagen-8_4-fb.edge-properties.names": "weight",
+      "graph.datagen-8_5-fb.edge-file": "datagen-8_5-fb.e",
+      "graph.datagen-8_5-fb.sssp.weight-property": "weight",
+      "graph.example-directed.edge-properties.names": "weight",
+      "graph.datagen-9_1-fb.vertex-file": "datagen-9_1-fb.v",
+      "graph.datagen-8_4-fb.meta.edges": "269479177",
+      "graph.datagen-9_4-fb.pr.num-iterations": "10",
+      "graph.graph500-25.bfs.source-vertex": "24460635",
+      "graph.example-undirected.cdlp.max-iterations": "2",
+      "graph.datagen-7_7-zf.edge-properties.types": "real",
+      "graph.datagen-9_2-zf.pr.num-iterations": "10",
+      "graph.datagen-8_7-zf.sssp.weight-property": "weight",
+      "graph.graph500-25.pr.num-iterations": "10",
+      "graph.datagen-9_4-fb.algorithms": "bfs",
+      "platform.version": "1.6.0",
+      "graph.datagen-8_8-zf.vertex-file": "datagen-8_8-zf.v",
+      "graph.example-undirected.vertex-file": "example-undirected.v",
+      "graph.datagen-8_4-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.edge-properties.names": "weight",
+      "graph.example-undirected.edge-properties.types": "real",
+      "graph.graph500-26.pr.num-iterations": "10",
+      "graph.dota-league.vertex-file": "dota-league.v",
+      "graph.datagen-7_7-zf.edge-file": "datagen-7_7-zf.e",
+      "graph.datagen-9_3-zf.meta.vertices": "555270053",
+      "graph.datagen-9_3-zf.algorithms": "bfs",
+      "graph.twitter_mpi.directed": "true",
+      "system.pricing": "",
+      "graph.example-undirected.algorithms": "bfs",
+      "graph.datagen-8_2-zf.meta.edges": "106440188",
+      "graph.datagen-8_5-fb.pr.damping-factor": "0.85",
+      "graph.dota-league.algorithms": "bfs",
+      "graph.datagen-8_6-fb.edge-file": "datagen-8_6-fb.e",
+      "graph.datagen-8_6-fb.edge-properties.types": "real",
+      "graphs.root-directory": "/var/scratch/wlngai/graphalytics/input-graphs",
+      "graph.datagen-7_7-zf.pr.num-iterations": "10",
+      "graph.com-friendster.vertex-file": "com-friendster.v",
+      "graph.graph500-25.meta.edges": "523602831",
+      "graph.datagen-7_5-fb.meta.vertices": "633432",
+      "graph.twitter_mpi.meta.vertices": "52579678",
+      "graph.datagen-8_6-fb.pr.num-iterations": "10",
+      "graph.datagen-7_5-fb.cdlp.max-iterations": "10",
+      "graph.datagen-9_2-zf.algorithms": "bfs",
+      "graph.datagen-7_6-fb.edge-properties.types": "real",
+      "graph.datagen-9_0-fb.pr.num-iterations": "10",
+      "graph.datagen-8_3-zf.meta.edges": "130579909",
+      "graph.datagen-8_7-zf.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.pr.num-iterations": "10",
+      "graph.example-directed.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.directed": "false",
+      "graph.datagen-8_9-fb.meta.edges": "848681908",
+      "graph.datagen-9_0-fb.directed": "false",
+      "graph.datagen-7_9-fb.bfs.source-vertex": "6",
+      "graph.datagen-7_8-zf.cdlp.max-iterations": "10",
+      "environment.version": "",
+      "graph.datagen-9_4-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_3-zf.sssp.source-vertex": "6",
+      "graph.example-directed.meta.vertices": "10",
+      "graph.datagen-8_4-fb.directed": "false"
+    }
+  },
+  "result": {
+    "experiments": {
+      "e462815": {
+        "id": "e462815",
+        "type": "custom:exp",
+        "jobs": [
+          "j837611",
+          "j750487",
+          "j578145",
+          "j807508",
+          "j816104",
+          "j527954",
+          "j889896",
+          "j716730",
+          "j706540",
+          "j745869",
+          "j681309",
+          "j789614",
+          "j561300",
+          "j536217",
+          "j907797",
+          "j556847",
+          "j833134",
+          "j907841",
+          "j746534",
+          "j898494",
+          "j899441",
+          "j767646",
+          "j530793",
+          "j674669",
+          "j832092",
+          "j680112",
+          "j863386",
+          "j906574",
+          "j538559",
+          "j839553",
+          "j640311",
+          "j711680",
+          "j714140",
+          "j801142",
+          "j871222"
+        ]
+      }
+    },
+    "jobs": {
+      "j746534": {
+        "id": "j746534",
+        "algorithm": "CDLP",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r764983"
+        ]
+      },
+      "j530793": {
+        "id": "j530793",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r811990"
+        ]
+      },
+      "j714140": {
+        "id": "j714140",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r895014"
+        ]
+      },
+      "j556847": {
+        "id": "j556847",
+        "algorithm": "PR",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r850264"
+        ]
+      },
+      "j536217": {
+        "id": "j536217",
+        "algorithm": "PR",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r813143"
+        ]
+      },
+      "j538559": {
+        "id": "j538559",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r670575"
+        ]
+      },
+      "j907841": {
+        "id": "j907841",
+        "algorithm": "PR",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r788423"
+        ]
+      },
+      "j871222": {
+        "id": "j871222",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r826549"
+        ]
+      },
+      "j745869": {
+        "id": "j745869",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r706246"
+        ]
+      },
+      "j906574": {
+        "id": "j906574",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r648378"
+        ]
+      },
+      "j816104": {
+        "id": "j816104",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r604126"
+        ]
+      },
+      "j706540": {
+        "id": "j706540",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r834378"
+        ]
+      },
+      "j839553": {
+        "id": "j839553",
+        "algorithm": "BFS",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r527589"
+        ]
+      },
+      "j789614": {
+        "id": "j789614",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r611206"
+        ]
+      },
+      "j527954": {
+        "id": "j527954",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r675787"
+        ]
+      },
+      "j716730": {
+        "id": "j716730",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r617248"
+        ]
+      },
+      "j711680": {
+        "id": "j711680",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r897707"
+        ]
+      },
+      "j801142": {
+        "id": "j801142",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r916355"
+        ]
+      },
+      "j578145": {
+        "id": "j578145",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r898369"
+        ]
+      },
+      "j899441": {
+        "id": "j899441",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r548332"
+        ]
+      },
+      "j898494": {
+        "id": "j898494",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r602352"
+        ]
+      },
+      "j640311": {
+        "id": "j640311",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r833116"
+        ]
+      },
+      "j837611": {
+        "id": "j837611",
+        "algorithm": "WCC",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r604284"
+        ]
+      },
+      "j907797": {
+        "id": "j907797",
+        "algorithm": "PR",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r794548"
+        ]
+      },
+      "j674669": {
+        "id": "j674669",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r827760"
+        ]
+      },
+      "j807508": {
+        "id": "j807508",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r599321"
+        ]
+      },
+      "j767646": {
+        "id": "j767646",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r605515"
+        ]
+      },
+      "j680112": {
+        "id": "j680112",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r713172"
+        ]
+      },
+      "j833134": {
+        "id": "j833134",
+        "algorithm": "PR",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r552723"
+        ]
+      },
+      "j681309": {
+        "id": "j681309",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r817915"
+        ]
+      },
+      "j863386": {
+        "id": "j863386",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r652631"
+        ]
+      },
+      "j889896": {
+        "id": "j889896",
+        "algorithm": "LCC",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r782047"
+        ]
+      },
+      "j832092": {
+        "id": "j832092",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r696941"
+        ]
+      },
+      "j561300": {
+        "id": "j561300",
+        "algorithm": "PR",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r916112"
+        ]
+      },
+      "j750487": {
+        "id": "j750487",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r700368"
+        ]
+      }
+    },
+    "runs": {
+      "r788423": {
+        "id": "r788423",
+        "timestamp": "1513145849144",
+        "success": "true",
+        "load_time": "42.383",
+        "makespan": "627.526",
+        "processing_time": "534.196"
+      },
+      "r794548": {
+        "id": "r794548",
+        "timestamp": "1513121041941",
+        "success": "true",
+        "load_time": "45.495",
+        "makespan": "507.191",
+        "processing_time": "376.912"
+      },
+      "r548332": {
+        "id": "r548332",
+        "timestamp": "1513125814833",
+        "success": "false",
+        "load_time": "45.495",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r604126": {
+        "id": "r604126",
+        "timestamp": "1513140292110",
+        "success": "true",
+        "load_time": "35.306",
+        "makespan": "448.093",
+        "processing_time": "337.307"
+      },
+      "r897707": {
+        "id": "r897707",
+        "timestamp": "1513115742812",
+        "success": "true",
+        "load_time": "45.495",
+        "makespan": "320.868",
+        "processing_time": "207.274"
+      },
+      "r700368": {
+        "id": "r700368",
+        "timestamp": "1513111058187",
+        "success": "true",
+        "load_time": "31.742",
+        "makespan": "244.218",
+        "processing_time": "158.854"
+      },
+      "r833116": {
+        "id": "r833116",
+        "timestamp": "1513115508231",
+        "success": "true",
+        "load_time": "31.742",
+        "makespan": "142.793",
+        "processing_time": "58.830"
+      },
+      "r604284": {
+        "id": "r604284",
+        "timestamp": "1513101609380",
+        "success": "true",
+        "load_time": "29.606",
+        "makespan": "401.484",
+        "processing_time": "269.476"
+      },
+      "r817915": {
+        "id": "r817915",
+        "timestamp": "1513140289014",
+        "success": "false",
+        "load_time": "35.306",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r706246": {
+        "id": "r706246",
+        "timestamp": "1513129904425",
+        "success": "false",
+        "load_time": "73.207",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r675787": {
+        "id": "r675787",
+        "timestamp": "1513153978975",
+        "success": "true",
+        "load_time": "42.383",
+        "makespan": "323.887",
+        "processing_time": "229.722"
+      },
+      "r782047": {
+        "id": "r782047",
+        "timestamp": "1513101606278",
+        "success": "false",
+        "load_time": "29.606",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r605515": {
+        "id": "r605515",
+        "timestamp": "1513134165364",
+        "success": "false",
+        "load_time": "73.207",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r599321": {
+        "id": "r599321",
+        "timestamp": "1513129907525",
+        "success": "true",
+        "load_time": "73.207",
+        "makespan": "591.329",
+        "processing_time": "439.326"
+      },
+      "r696941": {
+        "id": "r696941",
+        "timestamp": "1513107201536",
+        "success": "true",
+        "load_time": "33.861",
+        "makespan": "163.935",
+        "processing_time": "69.087"
+      },
+      "r670575": {
+        "id": "r670575",
+        "timestamp": "1513145518641",
+        "success": "true",
+        "load_time": "57.382",
+        "makespan": "238.385",
+        "processing_time": "86.575"
+      },
+      "r826549": {
+        "id": "r826549",
+        "timestamp": "1513146534283",
+        "success": "true",
+        "load_time": "42.383",
+        "makespan": "171.152",
+        "processing_time": "78.862"
+      },
+      "r895014": {
+        "id": "r895014",
+        "timestamp": "1513126935674",
+        "success": "true",
+        "load_time": "73.207",
+        "makespan": "310.881",
+        "processing_time": "159.054"
+      },
+      "r552723": {
+        "id": "r552723",
+        "timestamp": "1513135606115",
+        "success": "true",
+        "load_time": "35.306",
+        "makespan": "460.877",
+        "processing_time": "336.386"
+      },
+      "r611206": {
+        "id": "r611206",
+        "timestamp": "1513153975876",
+        "success": "false",
+        "load_time": "42.383",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r898369": {
+        "id": "r898369",
+        "timestamp": "1513116505965",
+        "success": "true",
+        "load_time": "45.495",
+        "makespan": "506.262",
+        "processing_time": "393.973"
+      },
+      "r764983": {
+        "id": "r764983",
+        "timestamp": "1513105693254",
+        "success": "false",
+        "load_time": "29.606",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r813143": {
+        "id": "r813143",
+        "timestamp": "1513111348283",
+        "success": "true",
+        "load_time": "31.742",
+        "makespan": "494.597",
+        "processing_time": "404.283"
+      },
+      "r602352": {
+        "id": "r602352",
+        "timestamp": "1513111055086",
+        "success": "false",
+        "load_time": "31.742",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r713172": {
+        "id": "r713172",
+        "timestamp": "1513125878241",
+        "success": "true",
+        "load_time": "60.255",
+        "makespan": "385.263",
+        "processing_time": "219.802"
+      },
+      "r648378": {
+        "id": "r648378",
+        "timestamp": "1513134734635",
+        "success": "true",
+        "load_time": "38.980",
+        "makespan": "345.307",
+        "processing_time": "224.016"
+      },
+      "r916112": {
+        "id": "r916112",
+        "timestamp": "1513105696358",
+        "success": "true",
+        "load_time": "29.606",
+        "makespan": "1022.882",
+        "processing_time": "889.860"
+      },
+      "r834378": {
+        "id": "r834378",
+        "timestamp": "1513121038848",
+        "success": "false",
+        "load_time": "45.495",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r916355": {
+        "id": "r916355",
+        "timestamp": "1513141151279",
+        "success": "true",
+        "load_time": "35.306",
+        "makespan": "312.226",
+        "processing_time": "203.102"
+      },
+      "r617248": {
+        "id": "r617248",
+        "timestamp": "1513115505128",
+        "success": "false",
+        "load_time": "31.742",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r811990": {
+        "id": "r811990",
+        "timestamp": "1513145458132",
+        "success": "false",
+        "load_time": "35.306",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r827760": {
+        "id": "r827760",
+        "timestamp": "1513150363068",
+        "success": "false",
+        "load_time": "42.383",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r850264": {
+        "id": "r850264",
+        "timestamp": "1513127305766",
+        "success": "true",
+        "load_time": "73.207",
+        "makespan": "1405.798",
+        "processing_time": "1249.782"
+      },
+      "r652631": {
+        "id": "r652631",
+        "timestamp": "1513134253515",
+        "success": "true",
+        "load_time": "83.994",
+        "makespan": "375.870",
+        "processing_time": "193.923"
+      },
+      "r527589": {
+        "id": "r527589",
+        "timestamp": "1513106813555",
+        "success": "true",
+        "load_time": "29.606",
+        "makespan": "281.983",
+        "processing_time": "154.532"
+      }
+    }
+  }
+}

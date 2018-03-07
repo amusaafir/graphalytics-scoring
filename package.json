@@ -1,0 +1,23 @@
+{
+  "name": "graphalytics-scoring",
+  "version": "1.0.0",
+  "description": "Computes the results of the pair-wise and relative-performance Graphalytics competitions based on a given set of benchmark results.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphalytics",
+    "global",
+    "competition",
+    "scoring"
+  ],
+  "author": "Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "mathjs": "^4.0.0",
+    "moment": "^2.21.0",
+    "yargs": "^11.0.0"
+  }
+}

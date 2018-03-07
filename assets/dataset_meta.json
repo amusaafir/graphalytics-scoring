@@ -1,0 +1,364 @@
+{
+  "wiki-Talk": {
+    "id": "wiki",
+    "file_name": "wiki-Talk",
+    "scale": "R1",
+    "is_directed": "true",
+    "is_real": "true",
+    "has_property": "false",
+    "vertex_size": "2394385",
+    "edge_size": "5021410"
+  },
+
+  "kgs": {
+    "id": "kgs",
+    "file_name": "kgs",
+    "scale": "R2",
+    "is_directed": "false",
+    "is_real": "true",
+    "has_property": "true",
+    "vertex_size": "832247",
+    "edge_size": "17891698"
+  },
+
+  "cit-Patents": {
+    "id": "cita",
+    "file_name": "cit-Patents",
+    "scale": "R3",
+    "is_directed": "true",
+    "is_real": "true",
+    "has_property": "false",
+    "vertex_size": "3774768",
+    "edge_size": "16518948"
+  },
+
+  "dota-league": {
+    "id": "dota-league",
+    "file_name": "dota-league",
+    "scale": "R4",
+    "is_directed": "false",
+    "is_real": "true",
+    "has_property": "true",
+    "vertex_size": "61170",
+    "edge_size": "50870313"
+  },
+
+  "com-friendster": {
+    "id": "com-friendster",
+    "file_name": "com-friendster",
+    "scale": "R5",
+    "is_directed": "false",
+    "is_real": "true",
+    "has_property": "false",
+    "vertex_size": "65608366",
+    "edge_size": "1806067135"
+  },
+
+  "twitter_mpi": {
+    "id": "twit",
+    "file_name": "twitter_mpi",
+    "scale": "R6",
+    "is_directed": "true",
+    "is_real": "true",
+    "has_property": "false",
+    "vertex_size": "52579678",
+    "edge_size": "1963263508"
+  },
+
+  "graph500-22": {
+    "id": "gr22",
+    "file_name": "graph500-22",
+    "scale": "G22",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "false",
+    "vertex_size": "2396657",
+    "edge_size": "64155735"
+  },
+
+  "graph500-23": {
+    "id": "gr23",
+    "file_name": "graph500-23",
+    "scale": "G23",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "false",
+    "vertex_size": "4610222",
+    "edge_size": "129333677"
+  },
+
+  "graph500-24": {
+    "id": "gr24",
+    "file_name": "graph500-24",
+    "scale": "G24",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "false",
+    "vertex_size": "8870942",
+    "edge_size": "260379520"
+  },
+
+  "graph500-25": {
+    "id": "gr25",
+    "file_name": "graph500-25",
+    "scale": "G25",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "false",
+    "vertex_size": "17062472",
+    "edge_size": "523602831"
+  },
+
+  "graph500-26": {
+    "id": "gr26",
+    "file_name": "graph500-26",
+    "scale": "G26",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "false",
+    "vertex_size": "32804978",
+    "edge_size": "1051922853"
+  },
+
+  "datagen-7_5-fb": {
+    "id": "dg7.5fb",
+    "file_name": "datagen-7_5-fb",
+    "scale": "DG7.5FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "633432",
+    "edge_size": "34185747"
+  },
+
+  "datagen-7_6-fb": {
+    "id": "dg7.6fb",
+    "file_name": "datagen-7_6-fb",
+    "scale": "DG7.6FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "754147",
+    "edge_size": "42162988"
+  },
+
+  "datagen-7_7-zf": {
+    "id": "dg7.7zf",
+    "file_name": "datagen-7_7-zf",
+    "scale": "DG7.7ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "13180508",
+    "edge_size": "32791267"
+  },
+
+  "datagen-7_8-zf": {
+    "id": "dg7.8zf",
+    "file_name": "datagen-7_8-zf",
+    "scale": "DG7.8ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "16521886",
+    "edge_size": "41025255"
+  },
+
+  "datagen-7_9-fb": {
+    "id": "dg7.9fb",
+    "file_name": "datagen-7_9-fb",
+    "scale": "DG7.9FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "1387587",
+    "edge_size": "85670523"
+  },
+
+  "datagen-8_0-fb": {
+    "id": "dg8.0fb",
+    "file_name": "datagen-8_0-fb",
+    "scale": "DG8.0FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "1706561",
+    "edge_size": "107507376"
+  },
+
+  "datagen-8_1-fb": {
+    "id": "dg8.1fb",
+    "file_name": "datagen-8_1-fb",
+    "scale": "DG8.1FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "2072117",
+    "edge_size": "134267822"
+  },
+
+  "datagen-8_2-zf": {
+    "id": "dg8.2zf",
+    "file_name": "datagen-8_2-zf",
+    "scale": "DG8.2ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "43734497",
+    "edge_size": "106440188"
+  },
+
+  "datagen-8_3-zf": {
+    "id": "dg8.3zf",
+    "file_name": "datagen-8_3-zf",
+    "scale": "DG8.3ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "53525014",
+    "edge_size": "130579909"
+  },
+
+  "datagen-8_4-fb": {
+    "id": "dg8.4fb",
+    "file_name": "datagen-8_4-fb",
+    "scale": "DG8.4FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "3809084",
+    "edge_size": "269479177"
+  },
+
+  "datagen-8_5-fb": {
+    "id": "dg8.5fb",
+    "file_name": "datagen-8_5-fb",
+    "scale": "DG8.5FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "4599739",
+    "edge_size": "332026902"
+  },
+
+  "datagen-8_6-fb": {
+    "id": "dg8.6fb",
+    "file_name": "datagen-8_6-fb",
+    "scale": "DG8.6FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "5667674",
+    "edge_size": "421988619"
+  },
+
+  "datagen-8_7-zf": {
+    "id": "dg8.7zf",
+    "file_name": "datagen-8_7-zf",
+    "scale": "DG8.7ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "145050709",
+    "edge_size": "340157363"
+  },
+
+  "datagen-8_8-zf": {
+    "id": "dg8.8zf",
+    "file_name": "datagen-8_8-zf",
+    "scale": "DG8.8ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "168308893",
+    "edge_size": "413354288"
+  },
+
+  "datagen-8_9-fb": {
+    "id": "dg8.9fb",
+    "file_name": "datagen-8_9-fb",
+    "scale": "DG8.9FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "10572901",
+    "edge_size": "848681908"
+  },
+
+  "datagen-9_0-fb": {
+    "id": "dg9.0fb",
+    "file_name": "datagen-9_0-fb",
+    "scale": "DG9.0FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "12857671",
+    "edge_size": "1049527225"
+  },
+
+  "datagen-9_1-fb": {
+    "id": "dg9.1fb",
+    "file_name": "datagen-9_1-fb",
+    "scale": "DG9.1FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "16087483",
+    "edge_size": "1342158397"
+  },
+
+  "datagen-9_2-zf": {
+    "id": "dg9.2zf",
+    "file_name": "datagen-9_2-zf",
+    "scale": "DG9.2ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "434943376",
+    "edge_size": "1042340732"
+  },
+
+  "datagen-9_3-zf": {
+    "id": "dg9.3zf",
+    "file_name": "datagen-9_3-zf",
+    "scale": "DG9.3ZF",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "555270053",
+    "edge_size": "1309998551"
+  },
+
+  "datagen-9_4-fb": {
+    "id": "dg9.4fb",
+    "file_name": "datagen-9_4-fb",
+    "scale": "DG9.4FB",
+    "is_directed": "false",
+    "is_real": "false",
+    "has_property": "true",
+    "vertex_size": "29310565",
+    "edge_size": "2588948669"
+  },
+
+  "example-directed": {
+    "id": "example-directed",
+    "file_name": "example-directed",
+    "scale": "ex-di",
+    "is_directed": "true",
+    "is_real": "real",
+    "has_property": "true",
+    "vertex_size": "10",
+    "edge_size": "17"
+  },
+
+  "example-undirected": {
+    "id": "example-undirected",
+    "file_name": "example-undirected",
+    "scale": "ex-un",
+    "is_directed": "false",
+    "is_real": "real",
+    "has_property": "true",
+    "vertex_size": "9",
+    "edge_size": "12"
+  }
+}

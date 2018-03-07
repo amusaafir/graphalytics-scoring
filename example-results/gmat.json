@@ -1,0 +1,2236 @@
+{
+  "id": "b718465",
+  "specification": "0.9.0",
+  "description": "",
+  "system": {
+    "platform": {
+      "name": "Graphmat",
+      "acronym": "gmat",
+      "version": "?",
+      "link": "?"
+    },
+    "environment": {
+      "name": "",
+      "acronym": "",
+      "version": "",
+      "link": "",
+      "machines": [
+        {
+          "quantity": "",
+          "cpu": "",
+          "memory": "",
+          "network": "",
+          "storage": ""
+        }
+      ]
+    },
+    "tool": {
+      "graphalytics-core": {
+        "name": "graphalytics-core",
+        "version": "0.9.0",
+        "link": "https://github.com/ldbc/ldbc_graphalytics"
+      },
+      "graphalytics-platforms-graphmat": {
+        "name": "graphalytics-platforms-graphmat",
+        "version": "0.2-SNAPSHOT",
+        "link": "https://github.com/atlarge-research/graphalytics-platforms-graphmat"
+      }
+    },
+    "pricing": "0"
+  },
+  "benchmark": {
+    "type": "standard",
+    "name": "Standard Benchmark",
+    "target_scale": "L",
+    "duration": "74812809",
+    "timeout": "3600",
+    "resources": {},
+    "output": {
+      "required": "-",
+      "directory": "/var/scratch/musaafir/newgraphmat/output/realoutput"
+    },
+    "validation": {
+      "required": "-",
+      "directory": "/var/scratch/wlngai/graphalytics/validation-graphs"
+    },
+    "configurations": {
+      "graph.datagen-8_9-fb.edge-properties.types": "real",
+      "environment.machine.memory": "",
+      "graph.datagen-8_3-zf.cdlp.max-iterations": "10",
+      "graph.datagen-9_4-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_9-fb.sssp.source-vertex": "6",
+      "graph.graph500-24.edge-file": "graph500-24.e",
+      "graph.datagen-8_4-fb.vertex-file": "datagen-8_4-fb.v",
+      "graph.datagen-9_1-fb.meta.vertices": "16087483",
+      "graph.example-undirected.meta.vertices": "9",
+      "graph.com-friendster.cdlp.max-iterations": "10",
+      "graph.datagen-7_9-fb.vertex-file": "datagen-7_9-fb.v",
+      "environment.machine.storage": "",
+      "graph.datagen-8_7-zf.bfs.source-vertex": "6",
+      "benchmark.runner.max-memory": "",
+      "graph.datagen-8_3-zf.meta.vertices": "53525014",
+      "graph.datagen-8_1-fb.algorithms": "bfs",
+      "graph.datagen-7_7-zf.meta.edges": "32791267",
+      "graph.datagen-8_7-zf.vertex-file": "datagen-8_7-zf.v",
+      "graph.datagen-8_8-zf.meta.vertices": "168308893",
+      "graph.datagen-9_2-zf.vertex-file": "datagen-9_2-zf.v",
+      "graph.dota-league.cdlp.max-iterations": "10",
+      "graph.datagen-8_5-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.edge-properties.types": "real",
+      "graph.graph500-22.cdlp.max-iterations": "10",
+      "graph.graph500-23.algorithms": "bfs",
+      "graph.graph500-22.edge-file": "graph500-22.e",
+      "graph.datagen-8_0-fb.edge-properties.names": "weight",
+      "graph.datagen-8_0-fb.meta.vertices": "1706561",
+      "graph.example-undirected.edge-properties.names": "weight",
+      "graph.datagen-8_0-fb.algorithms": "bfs",
+      "graph.datagen-9_4-fb.edge-properties.types": "real",
+      "graph.datagen-7_7-zf.algorithms": "bfs",
+      "graph.datagen-8_0-fb.bfs.source-vertex": "6",
+      "graph.twitter_mpi.cdlp.max-iterations": "10",
+      "graph.graph500-22.bfs.source-vertex": "248533",
+      "graph.example-directed.bfs.source-vertex": "1",
+      "graph.datagen-9_1-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.vertex-file": "datagen-8_5-fb.v",
+      "graph.datagen-8_9-fb.cdlp.max-iterations": "10",
+      "graph.com-friendster.meta.edges": "1806067135",
+      "graph.graph500-26.meta.vertices": "32804978",
+      "graph.datagen-7_8-zf.algorithms": "bfs",
+      "graph.datagen-9_2-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_2-zf.sssp.source-vertex": "6",
+      "graph.datagen-7_5-fb.algorithms": "bfs",
+      "graph.graph500-24.bfs.source-vertex": "2592222",
+      "graph.datagen-7_6-fb.edge-file": "datagen-7_6-fb.e",
+      "graph.datagen-8_8-zf.bfs.source-vertex": "6",
+      "graph.dota-league.meta.vertices": "61170",
+      "graph.datagen-7_7-zf.meta.vertices": "13180508",
+      "graph.datagen-7_5-fb.meta.edges": "34185747",
+      "graph.example-directed.edge-properties.types": "real",
+      "graph.datagen-7_8-zf.edge-file": "datagen-7_8-zf.e",
+      "graph.datagen-9_2-zf.pr.damping-factor": "0.85",
+      "graph.datagen-9_3-zf.pr.num-iterations": "10",
+      "graph.datagen-9_3-zf.edge-properties.types": "real",
+      "graph.datagen-7_5-fb.edge-properties.names": "weight",
+      "graph.datagen-8_2-zf.bfs.source-vertex": "6",
+      "graph.twitter_mpi.meta.edges": "1963263508",
+      "graph.datagen-7_7-zf.edge-properties.names": "weight",
+      "graph.dota-league.edge-properties.types": "real",
+      "graph.datagen-9_4-fb.edge-properties.names": "weight",
+      "graph.datagen-9_3-zf.vertex-file": "datagen-9_3-zf.v",
+      "graph.datagen-7_9-fb.edge-properties.names": "weight",
+      "graph.datagen-8_9-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_2-zf.sssp.source-vertex": "6",
+      "graph.graph500-26.cdlp.max-iterations": "10",
+      "graph.graph500-26.bfs.source-vertex": "62455266",
+      "graph.datagen-9_4-fb.meta.vertices": "29310565",
+      "graph.datagen-8_4-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_1-fb.meta.edges": "134267822",
+      "graph.example-undirected.sssp.source-vertex": "2",
+      "graph.twitter_mpi.algorithms": "bfs",
+      "graph.datagen-7_5-fb.directed": "false",
+      "graph.graph500-25.directed": "false",
+      "graph.datagen-9_1-fb.pr.num-iterations": "10",
+      "graph.datagen-7_9-fb.edge-file": "datagen-7_9-fb.e",
+      "graph.datagen-8_4-fb.bfs.source-vertex": "6",
+      "graphs.cache-directory": "/var/scratch/musaafir/newgraphmat/output/cache",
+      "graph.dota-league.pr.damping-factor": "0.85",
+      "graph.datagen-9_3-zf.edge-properties.names": "weight",
+      "graph.twitter_mpi.edge-file": "twitter_mpi.e",
+      "graph.datagen-7_5-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.directed": "false",
+      "graph.datagen-8_9-fb.directed": "false",
+      "graph.datagen-8_5-fb.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.meta.edges": "42162988",
+      "graph.datagen-8_2-zf.pr.num-iterations": "10",
+      "graph.datagen-8_0-fb.meta.edges": "107507376",
+      "graph.datagen-9_0-fb.vertex-file": "datagen-9_0-fb.v",
+      "graph.graph500-23.bfs.source-vertex": "7348998",
+      "graph.datagen-9_1-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.edge-file": "datagen-8_4-fb.e",
+      "graph.datagen-9_0-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_6-fb.vertex-file": "datagen-8_6-fb.v",
+      "graph.datagen-8_1-fb.directed": "false",
+      "graph.example-undirected.directed": "false",
+      "graph.datagen-7_9-fb.directed": "false",
+      "platform.acronym": "gmat",
+      "graph.datagen-7_5-fb.edge-file": "datagen-7_5-fb.e",
+      "platform.graphmat.intermediate-dir": "/var/scratch/musaafir/newgraphmat/graphalytics-platforms-graphmat/graphalytics-0.9.0-graphmat-0.2-SNAPSHOT/intermediate",
+      "platform.graphmat.home": "/var/scratch/musaafir/newgraphmat/GraphMat",
+      "graph.com-friendster.edge-file": "com-friendster.e",
+      "graph.dota-league.sssp.weight-property": "weight",
+      "graph.datagen-7_9-fb.meta.vertices": "1387587",
+      "graph.datagen-8_1-fb.edge-properties.names": "weight",
+      "graph.graph500-25.vertex-file": "graph500-25.v",
+      "platform.graphmat.command.prefix": "env I_MPI_DEBUG\u003d2 I_MPI_FABRICS_LIST\u003dtmi,dapl,tcp I_MPI_TMI_PROVIDER\u003dpsm2 KMP_AFFINITY\u003dscatter OMP_NUM_THREADS\u003d32 salloc -N 16 --ntasks-per-node\u003d1 --time-min\u003d4320 --time\u003d4350 mpiexec.hydra numactl -i all",
+      "graph.datagen-8_2-zf.algorithms": "bfs",
+      "graph.com-friendster.pr.damping-factor": "0.85",
+      "graph.datagen-9_1-fb.directed": "false",
+      "graph.datagen-9_3-zf.meta.edges": "1309998551",
+      "graph.example-undirected.bfs.source-vertex": "2",
+      "graph.datagen-7_6-fb.pr.damping-factor": "0.85",
+      "platform.graphmat.command.convert": "env I_MPI_DEBUG\u003d2 I_MPI_FABRICS_LIST\u003dtmi,dapl,tcp I_MPI_TMI_PROVIDER\u003dpsm2 KMP_AFFINITY\u003dscatter OMP_NUM_THREADS\u003d32 salloc -N 16 --ntasks-per-node\u003d1 --time-min\u003d4320 --time\u003d4350 mpiexec.hydra numactl -i all %s %s",
+      "environment.machine.cpu": "",
+      "graph.datagen-7_7-zf.sssp.weight-property": "weight",
+      "environment.acronym": "",
+      "graph.dota-league.meta.edges": "50870313",
+      "graph.datagen-8_1-fb.vertex-file": "datagen-8_1-fb.v",
+      "graph.datagen-8_7-zf.pr.num-iterations": "10",
+      "graph.datagen-9_0-fb.meta.edges": "1049527225",
+      "graph.datagen-7_8-zf.meta.vertices": "16521886",
+      "graph.example-undirected.edge-file": "example-undirected.e",
+      "graph.datagen-8_8-zf.edge-file": "datagen-8_8-zf.e",
+      "graph.graph500-24.vertex-file": "graph500-24.v",
+      "graph.datagen-7_6-fb.algorithms": "bfs",
+      "graph.graph500-25.meta.vertices": "17062472",
+      "graph.datagen-7_8-zf.directed": "false",
+      "graph.datagen-9_3-zf.sssp.weight-property": "weight",
+      "platform.graphmat.command.run": "env I_MPI_DEBUG\u003d2 I_MPI_FABRICS_LIST\u003dtmi,dapl,tcp I_MPI_TMI_PROVIDER\u003dpsm2 KMP_AFFINITY\u003dscatter OMP_NUM_THREADS\u003d32 salloc -N 16 --ntasks-per-node\u003d1 --time-min\u003d4320 --time\u003d4350 mpiexec.hydra numactl -i all %s %s",
+      "graph.datagen-8_5-fb.bfs.source-vertex": "6",
+      "graph.example-directed.vertex-file": "example-directed.v",
+      "graph.datagen-8_3-zf.directed": "false",
+      "graph.example-directed.algorithms": "bfs",
+      "graph.datagen-7_6-fb.edge-properties.names": "weight",
+      "graph.datagen-8_1-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_9-fb.edge-properties.names": "weight",
+      "graph.example-undirected.meta.edges": "12",
+      "graph.datagen-8_8-zf.directed": "false",
+      "graph.datagen-8_9-fb.algorithms": "bfs",
+      "graph.graph500-23.pr.damping-factor": "0.85",
+      "graph.datagen-8_7-zf.directed": "false",
+      "graph.datagen-8_0-fb.vertex-file": "datagen-8_0-fb.v",
+      "graph.graph500-24.meta.vertices": "8870942",
+      "graph.datagen-8_6-fb.edge-properties.names": "weight",
+      "benchmark.runner.port": "8012",
+      "graph.datagen-7_9-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_0-fb.edge-properties.types": "real",
+      "graph.datagen-8_3-zf.algorithms": "bfs",
+      "graph.datagen-7_5-fb.sssp.source-vertex": "6",
+      "graph.com-friendster.directed": "false",
+      "graph.datagen-9_2-zf.meta.edges": "1042340732",
+      "graph.datagen-7_7-zf.directed": "false",
+      "graph.datagen-8_0-fb.sssp.weight-property": "weight",
+      "benchmark.description": "",
+      "graph.datagen-8_3-zf.vertex-file": "datagen-8_3-zf.v",
+      "graph.graph500-22.algorithms": "bfs",
+      "graph.graph500-23.pr.num-iterations": "10",
+      "graph.datagen-8_1-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_0-fb.meta.vertices": "12857671",
+      "graph.datagen-8_2-zf.sssp.weight-property": "weight",
+      "graph.datagen-7_7-zf.vertex-file": "datagen-7_7-zf.v",
+      "graph.datagen-8_5-fb.meta.vertices": "4599739",
+      "graph.graph500-24.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_1-fb.edge-properties.names": "weight",
+      "graph.datagen-8_8-zf.algorithms": "bfs",
+      "graph.datagen-8_9-fb.edge-file": "datagen-8_9-fb.e",
+      "graph.datagen-8_7-zf.cdlp.max-iterations": "10",
+      "graph.example-directed.sssp.source-vertex": "1",
+      "graph.datagen-9_4-fb.pr.damping-factor": "0.85",
+      "graph.datagen-9_2-zf.edge-properties.names": "weight",
+      "environment.machine.network": "",
+      "graph.twitter_mpi.vertex-file": "twitter_mpi.v",
+      "platform.graphmat.num-machines": "16",
+      "graph.datagen-8_1-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_3-zf.pr.damping-factor": "0.85",
+      "graph.datagen-8_1-fb.pr.num-iterations": "10",
+      "graph.datagen-8_2-zf.pr.damping-factor": "0.85",
+      "graph.graph500-26.edge-file": "graph500-26.e",
+      "graph.datagen-9_1-fb.meta.edges": "1342158397",
+      "graph.datagen-9_3-zf.directed": "false",
+      "graph.datagen-8_3-zf.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.pr.damping-factor": "0.85",
+      "graph.graph500-25.algorithms": "bfs",
+      "graph.datagen-8_3-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_1-fb.sssp.weight-property": "weight",
+      "graph.graph500-23.meta.vertices": "4610222",
+      "graph.graph500-26.directed": "false",
+      "graph.datagen-8_0-fb.edge-properties.types": "real",
+      "environment.link": "",
+      "graph.dota-league.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.meta.edges": "41025255",
+      "graph.datagen-9_4-fb.meta.edges": "2588948669",
+      "graph.datagen-8_4-fb.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.directed": "false",
+      "platform.link": "?",
+      "graph.datagen-9_1-fb.pr.damping-factor": "0.85",
+      "benchmark.executor.port": "8011",
+      "graph.datagen-8_0-fb.pr.damping-factor": "0.85",
+      "graph.graph500-22.pr.num-iterations": "10",
+      "graph.datagen-8_2-zf.edge-file": "datagen-8_2-zf.e",
+      "graph.datagen-8_4-fb.edge-properties.types": "real",
+      "graph.datagen-8_6-fb.directed": "false",
+      "graph.example-directed.cdlp.max-iterations": "2",
+      "graph.datagen-9_1-fb.edge-file": "datagen-9_1-fb.e",
+      "graph.graph500-23.meta.edges": "129333677",
+      "graph.datagen-8_2-zf.edge-properties.names": "weight",
+      "graph.com-friendster.algorithms": "bfs",
+      "graph.graph500-23.directed": "false",
+      "graph.datagen-8_7-zf.algorithms": "bfs",
+      "graph.datagen-7_6-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.meta.vertices": "3809084",
+      "graph.datagen-7_6-fb.bfs.source-vertex": "6",
+      "graph.datagen-8_3-zf.edge-file": "datagen-8_3-zf.e",
+      "graph.graph500-22.meta.vertices": "2396657",
+      "graph.com-friendster.bfs.source-vertex": "101",
+      "graph.datagen-7_9-fb.meta.edges": "85670523",
+      "environment.machine.quantity": "",
+      "graph.datagen-7_5-fb.sssp.weight-property": "weight",
+      "graph.graph500-24.algorithms": "bfs",
+      "graph.example-undirected.pr.num-iterations": "2",
+      "graphs.validation-directory": "/var/scratch/wlngai/graphalytics/validation-graphs",
+      "graph.example-directed.sssp.weight-property": "weight",
+      "graph.datagen-8_1-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_6-fb.algorithms": "bfs",
+      "graph.datagen-8_7-zf.edge-properties.names": "weight",
+      "graph.datagen-8_9-fb.pr.num-iterations": "10",
+      "graph.datagen-8_0-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_1-fb.edge-properties.types": "real",
+      "graph.graph500-23.edge-file": "graph500-23.e",
+      "graph.datagen-8_7-zf.meta.vertices": "145050709",
+      "graph.datagen-8_6-fb.meta.edges": "421988619",
+      "graph.datagen-8_9-fb.meta.vertices": "10572901",
+      "graph.datagen-8_9-fb.pr.damping-factor": "0.85",
+      "graph.dota-league.bfs.source-vertex": "287770",
+      "graph.datagen-7_6-fb.meta.vertices": "754147",
+      "graph.datagen-7_9-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_5-fb.meta.edges": "332026902",
+      "graph.datagen-8_6-fb.sssp.weight-property": "weight",
+      "benchmark.name": "Standard Benchmark",
+      "graph.datagen-7_7-zf.sssp.source-vertex": "6",
+      "graph.datagen-8_4-fb.pr.num-iterations": "10",
+      "graph.datagen-8_5-fb.edge-properties.names": "weight",
+      "graph.datagen-7_5-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.edge-file": "datagen-9_0-fb.e",
+      "graph.datagen-8_1-fb.edge-file": "datagen-8_1-fb.e",
+      "graph.datagen-8_8-zf.meta.edges": "413354288",
+      "graph.datagen-7_8-zf.sssp.weight-property": "weight",
+      "graph.datagen-9_1-fb.cdlp.max-iterations": "10",
+      "graph.graph500-24.cdlp.max-iterations": "10",
+      "graph.graph500-25.pr.damping-factor": "0.85",
+      "graph.example-undirected.pr.damping-factor": "0.85",
+      "platform.name": "Graphmat",
+      "graph.datagen-9_2-zf.bfs.source-vertex": "6",
+      "graph.graph500-25.edge-file": "graph500-25.e",
+      "graph.datagen-8_3-zf.edge-properties.types": "real",
+      "graph.datagen-9_4-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_2-zf.meta.vertices": "43734497",
+      "graph.datagen-8_2-zf.vertex-file": "datagen-8_2-zf.v",
+      "graph.graph500-26.meta.edges": "1051922853",
+      "graph.graph500-25.cdlp.max-iterations": "10",
+      "graph.datagen-9_4-fb.cdlp.max-iterations": "10",
+      "graph.datagen-9_1-fb.algorithms": "bfs",
+      "graph.datagen-8_9-fb.vertex-file": "datagen-8_9-fb.v",
+      "benchmark.custom.algorithms": "bfs",
+      "graph.datagen-9_3-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_4-fb.vertex-file": "datagen-9_4-fb.v",
+      "graph.datagen-9_2-zf.directed": "false",
+      "graph.datagen-9_2-zf.edge-file": "datagen-9_2-zf.e",
+      "graph.datagen-9_3-zf.edge-file": "datagen-9_3-zf.e",
+      "graph.example-directed.directed": "true",
+      "graph.datagen-8_1-fb.pr.damping-factor": "0.85",
+      "graph.datagen-9_2-zf.cdlp.max-iterations": "10",
+      "graph.graph500-26.algorithms": "bfs",
+      "graph.datagen-7_9-fb.edge-properties.types": "real",
+      "graph.datagen-8_5-fb.algorithms": "bfs",
+      "environment.name": "",
+      "graph.datagen-8_3-zf.sssp.source-vertex": "6",
+      "graphs.output-directory": "/var/scratch/musaafir/newgraphmat/output/realoutput",
+      "graph.datagen-8_4-fb.pr.damping-factor": "0.85",
+      "graph.example-directed.meta.edges": "17",
+      "graph.datagen-8_5-fb.pr.num-iterations": "10",
+      "graph.example-undirected.sssp.weight-property": "weight",
+      "graph.example-directed.pr.num-iterations": "2",
+      "graph.datagen-7_6-fb.cdlp.max-iterations": "10",
+      "graph.graph500-22.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.pr.num-iterations": "10",
+      "graph.graph500-22.meta.edges": "64155735",
+      "graph.datagen-9_2-zf.meta.vertices": "434943376",
+      "graph.datagen-7_7-zf.pr.damping-factor": "0.85",
+      "graph.datagen-7_8-zf.edge-properties.types": "real",
+      "graph.datagen-8_4-fb.algorithms": "bfs",
+      "graph.datagen-8_8-zf.pr.damping-factor": "0.85",
+      "graph.datagen-7_8-zf.sssp.source-vertex": "6",
+      "graph.datagen-7_5-fb.vertex-file": "datagen-7_5-fb.v",
+      "graph.datagen-8_1-fb.meta.vertices": "2072117",
+      "graph.datagen-7_9-fb.sssp.weight-property": "weight",
+      "graph.dota-league.directed": "false",
+      "graph.twitter_mpi.bfs.source-vertex": "420",
+      "graph.datagen-8_6-fb.sssp.source-vertex": "6",
+      "graph.datagen-7_7-zf.cdlp.max-iterations": "10",
+      "graph.datagen-8_9-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.edge-properties.names": "weight",
+      "graph.graph500-24.pr.num-iterations": "10",
+      "graph.graph500-24.meta.edges": "260379520",
+      "graph.graph500-26.pr.damping-factor": "0.85",
+      "graph.datagen-8_3-zf.edge-properties.names": "weight",
+      "graph.datagen-7_8-zf.pr.num-iterations": "10",
+      "graph.datagen-7_9-fb.algorithms": "bfs",
+      "graph.datagen-8_6-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.vertex-file": "datagen-7_8-zf.v",
+      "graph.datagen-7_5-fb.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.edge-file": "datagen-8_0-fb.e",
+      "graph.datagen-8_7-zf.edge-properties.types": "real",
+      "graph.datagen-8_6-fb.cdlp.max-iterations": "10",
+      "graph.dota-league.edge-file": "dota-league.e",
+      "graph.graph500-26.vertex-file": "graph500-26.v",
+      "benchmark.type": "standard",
+      "graph.datagen-9_0-fb.algorithms": "bfs",
+      "graph.datagen-8_7-zf.sssp.source-vertex": "6",
+      "graph.graph500-24.directed": "false",
+      "graph.datagen-8_6-fb.meta.vertices": "5667674",
+      "graph.datagen-8_5-fb.edge-properties.types": "real",
+      "graph.datagen-9_4-fb.directed": "false",
+      "graph.example-directed.edge-file": "example-directed.e",
+      "graph.datagen-7_5-fb.pr.num-iterations": "10",
+      "graph.datagen-7_6-fb.vertex-file": "datagen-7_6-fb.v",
+      "graph.datagen-8_2-zf.cdlp.max-iterations": "10",
+      "benchmark.standard.target-scale": "L",
+      "graph.datagen-9_0-fb.cdlp.max-iterations": "10",
+      "graph.datagen-8_7-zf.edge-file": "datagen-8_7-zf.e",
+      "graph.dota-league.sssp.source-vertex": "287770",
+      "graph.datagen-9_2-zf.edge-properties.types": "real",
+      "graph.graph500-23.vertex-file": "graph500-23.v",
+      "graph.graph500-22.vertex-file": "graph500-22.v",
+      "graph.datagen-7_9-fb.sssp.source-vertex": "6",
+      "graph.datagen-7_7-zf.bfs.source-vertex": "6",
+      "graph.datagen-9_0-fb.sssp.source-vertex": "6",
+      "graph.datagen-9_1-fb.bfs.source-vertex": "6",
+      "platform.graphmat.num-threads": "32",
+      "graph.datagen-8_3-zf.pr.damping-factor": "0.85",
+      "graphs.names": "[dota-league, com-friendster, twitter_mpi, graph500-22, graph500-23, graph500-24, graph500-25, graph500-26, datagen-7_5-fb, datagen-7_6-fb, datagen-7_7-zf, datagen-7_8-zf, datagen-7_9-fb, datagen-8_0-fb, datagen-8_1-fb, datagen-8_2-zf, datagen-8_3-zf, datagen-8_4-fb, datagen-8_5-fb, datagen-8_6-fb, datagen-8_7-zf, datagen-8_8-zf, datagen-8_9-fb, datagen-9_0-fb, datagen-9_1-fb, datagen-9_2-zf, datagen-9_3-zf, datagen-9_4-fb, example-directed, example-undirected]",
+      "graph.twitter_mpi.pr.damping-factor": "0.85",
+      "graph.datagen-8_2-zf.directed": "false",
+      "graph.datagen-9_0-fb.sssp.weight-property": "weight",
+      "graph.datagen-7_9-fb.pr.num-iterations": "10",
+      "graph.datagen-9_3-zf.cdlp.max-iterations": "10",
+      "graph.datagen-7_6-fb.sssp.weight-property": "weight",
+      "graph.datagen-8_3-zf.sssp.weight-property": "weight",
+      "graph.dota-league.edge-properties.names": "weight",
+      "graph.datagen-8_7-zf.meta.edges": "340157363",
+      "graph.datagen-7_8-zf.bfs.source-vertex": "6",
+      "graph.com-friendster.meta.vertices": "65608366",
+      "graph.graph500-22.directed": "false",
+      "graph.graph500-23.cdlp.max-iterations": "10",
+      "graph.datagen-8_6-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_4-fb.edge-file": "datagen-9_4-fb.e",
+      "graph.com-friendster.pr.num-iterations": "10",
+      "graph.twitter_mpi.pr.num-iterations": "10",
+      "graph.datagen-7_8-zf.edge-properties.names": "weight",
+      "graph.datagen-8_2-zf.edge-properties.types": "real",
+      "graph.datagen-9_0-fb.bfs.source-vertex": "6",
+      "graph.datagen-8_4-fb.edge-properties.names": "weight",
+      "graph.datagen-8_5-fb.edge-file": "datagen-8_5-fb.e",
+      "graph.datagen-8_5-fb.sssp.weight-property": "weight",
+      "graph.example-directed.edge-properties.names": "weight",
+      "graph.datagen-9_1-fb.vertex-file": "datagen-9_1-fb.v",
+      "graph.datagen-8_4-fb.meta.edges": "269479177",
+      "graph.datagen-9_4-fb.pr.num-iterations": "10",
+      "graph.graph500-25.bfs.source-vertex": "24460635",
+      "graph.example-undirected.cdlp.max-iterations": "2",
+      "graph.datagen-7_7-zf.edge-properties.types": "real",
+      "graph.datagen-9_2-zf.pr.num-iterations": "10",
+      "graph.datagen-8_7-zf.sssp.weight-property": "weight",
+      "graph.graph500-25.pr.num-iterations": "10",
+      "graph.datagen-9_4-fb.algorithms": "bfs",
+      "platform.version": "?",
+      "graph.datagen-8_8-zf.vertex-file": "datagen-8_8-zf.v",
+      "graph.example-undirected.vertex-file": "example-undirected.v",
+      "graph.datagen-8_4-fb.sssp.source-vertex": "6",
+      "graph.datagen-8_8-zf.edge-properties.names": "weight",
+      "graph.example-undirected.edge-properties.types": "real",
+      "graph.graph500-26.pr.num-iterations": "10",
+      "graph.dota-league.vertex-file": "dota-league.v",
+      "graph.datagen-7_7-zf.edge-file": "datagen-7_7-zf.e",
+      "graph.datagen-9_3-zf.meta.vertices": "555270053",
+      "graph.datagen-9_3-zf.algorithms": "bfs",
+      "graph.twitter_mpi.directed": "true",
+      "system.pricing": "",
+      "graph.example-undirected.algorithms": "bfs",
+      "graph.datagen-8_2-zf.meta.edges": "106440188",
+      "graph.datagen-8_5-fb.pr.damping-factor": "0.85",
+      "graph.dota-league.algorithms": "bfs",
+      "graph.datagen-8_6-fb.edge-file": "datagen-8_6-fb.e",
+      "graph.datagen-8_6-fb.edge-properties.types": "real",
+      "graphs.root-directory": "/var/scratch/wlngai/graphalytics/input-graphs",
+      "graph.datagen-7_7-zf.pr.num-iterations": "10",
+      "graph.com-friendster.vertex-file": "com-friendster.v",
+      "graph.graph500-25.meta.edges": "523602831",
+      "graph.datagen-7_5-fb.meta.vertices": "633432",
+      "graph.twitter_mpi.meta.vertices": "52579678",
+      "graph.datagen-8_6-fb.pr.num-iterations": "10",
+      "graph.datagen-7_5-fb.cdlp.max-iterations": "10",
+      "graph.datagen-9_2-zf.algorithms": "bfs",
+      "graph.datagen-7_6-fb.edge-properties.types": "real",
+      "graph.datagen-9_0-fb.pr.num-iterations": "10",
+      "graph.datagen-8_3-zf.meta.edges": "130579909",
+      "graph.datagen-8_7-zf.pr.damping-factor": "0.85",
+      "graph.datagen-8_8-zf.pr.num-iterations": "10",
+      "graph.example-directed.pr.damping-factor": "0.85",
+      "graph.datagen-8_0-fb.directed": "false",
+      "graph.datagen-8_9-fb.meta.edges": "848681908",
+      "graph.datagen-9_0-fb.directed": "false",
+      "graph.datagen-7_9-fb.bfs.source-vertex": "6",
+      "graph.datagen-7_8-zf.cdlp.max-iterations": "10",
+      "environment.version": "",
+      "graph.datagen-9_4-fb.bfs.source-vertex": "6",
+      "graph.datagen-9_3-zf.sssp.source-vertex": "6",
+      "graph.example-directed.meta.vertices": "10",
+      "graph.datagen-8_4-fb.directed": "false"
+    }
+  },
+  "result": {
+    "experiments": {
+      "e640746": {
+        "id": "e640746",
+        "type": "standard:LCC",
+        "jobs": [
+          "j651336",
+          "j768748",
+          "j536264",
+          "j678457",
+          "j689766"
+        ]
+      },
+      "e588677": {
+        "id": "e588677",
+        "type": "standard:SSSP",
+        "jobs": [
+          "j826247",
+          "j734427",
+          "j642057",
+          "j803584",
+          "j890216"
+        ]
+      },
+      "e464245": {
+        "id": "e464245",
+        "type": "standard:CDLP",
+        "jobs": [
+          "j810457",
+          "j598646",
+          "j584143",
+          "j629518",
+          "j914811"
+        ]
+      },
+      "e718332": {
+        "id": "e718332",
+        "type": "standard:PR",
+        "jobs": [
+          "j678439",
+          "j918848",
+          "j658864",
+          "j659828",
+          "j532455",
+          "j888888"
+        ]
+      },
+      "e856862": {
+        "id": "e856862",
+        "type": "standard:BFS",
+        "jobs": [
+          "j741535",
+          "j570920",
+          "j853477",
+          "j681325",
+          "j597194",
+          "j999999"
+        ]
+      },
+      "e603790": {
+        "id": "e603790",
+        "type": "standard:WCC",
+        "jobs": [
+          "j530304",
+          "j809395",
+          "j793866",
+          "j507469",
+          "j656803",
+          "j777777"
+        ]
+      }
+    },
+    "jobs": {
+      "j597194": {
+        "id": "j597194",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r826110",
+          "r668880",
+          "r596893",
+          "r590930",
+          "r877985"
+        ]
+      },
+      "j532455": {
+        "id": "j532455",
+        "algorithm": "PR",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r798037",
+          "r620139",
+          "r731902",
+          "r534254",
+          "r533972"
+        ]
+      },
+      "j914811": {
+        "id": "j914811",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r468467",
+          "r841311",
+          "r630648",
+          "r756489",
+          "r739800"
+        ]
+      },
+      "j598646": {
+        "id": "j598646",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r873192",
+          "r557305",
+          "r468500",
+          "r724784",
+          "r618793"
+        ]
+      },
+      "j853477": {
+        "id": "j853477",
+        "algorithm": "BFS",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r500437",
+          "r739826",
+          "r536335",
+          "r905874",
+          "r619990"
+        ]
+      },
+      "j768748": {
+        "id": "j768748",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r814944",
+          "r467113",
+          "r698285",
+          "r855910",
+          "r530399"
+        ]
+      },
+      "j890216": {
+        "id": "j890216",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r640763",
+          "r691748",
+          "r883118",
+          "r519016",
+          "r823258"
+        ]
+      },
+      "j888888": {
+        "id": "j888888",
+        "algorithm": "PR",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r888888"
+        ]
+      },
+      "j999999": {
+        "id": "j999999",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r999999"
+        ]
+      },
+      "j777777": {
+        "id": "j777777",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_5-fb",
+        "scale": "1",
+        "repetition": "1",
+        "runs": [
+          "r777777"
+        ]
+      },
+      "j656803": {
+        "id": "j656803",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r657615",
+          "r646963",
+          "r462728",
+          "r772961",
+          "r832912"
+        ]
+      },
+      "j651336": {
+        "id": "j651336",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r867118",
+          "r790817",
+          "r910132",
+          "r590033",
+          "r700365"
+        ]
+      },
+      "j678457": {
+        "id": "j678457",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r486180",
+          "r876775",
+          "r780395",
+          "r877713",
+          "r468232"
+        ]
+      },
+      "j678439": {
+        "id": "j678439",
+        "algorithm": "PR",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r719204",
+          "r699568",
+          "r825181",
+          "r704300",
+          "r629131"
+        ]
+      },
+      "j658864": {
+        "id": "j658864",
+        "algorithm": "PR",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r518020",
+          "r848456",
+          "r812944",
+          "r607235",
+          "r519135"
+        ]
+      },
+      "j793866": {
+        "id": "j793866",
+        "algorithm": "WCC",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r884823",
+          "r674204",
+          "r760421",
+          "r919341",
+          "r909104"
+        ]
+      },
+      "j734427": {
+        "id": "j734427",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r824288",
+          "r560094",
+          "r846380",
+          "r516516",
+          "r592121"
+        ]
+      },
+      "j826247": {
+        "id": "j826247",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r483589",
+          "r810665",
+          "r813275",
+          "r591907",
+          "r601808"
+        ]
+      },
+      "j689766": {
+        "id": "j689766",
+        "algorithm": "LCC",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r918697",
+          "r752241",
+          "r767114",
+          "r656234",
+          "r695502"
+        ]
+      },
+      "j803584": {
+        "id": "j803584",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_6-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r530405",
+          "r462841",
+          "r555930",
+          "r511555",
+          "r792115"
+        ]
+      },
+      "j918848": {
+        "id": "j918848",
+        "algorithm": "PR",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r625115",
+          "r705893",
+          "r650596",
+          "r530521",
+          "r844472"
+        ]
+      },
+      "j810457": {
+        "id": "j810457",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r803514",
+          "r829042",
+          "r648556",
+          "r546262",
+          "r592602"
+        ]
+      },
+      "j530304": {
+        "id": "j530304",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r850703",
+          "r805746",
+          "r721680",
+          "r858646",
+          "r628274"
+        ]
+      },
+      "j507469": {
+        "id": "j507469",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r625754",
+          "r633450",
+          "r773035",
+          "r641012",
+          "r789080"
+        ]
+      },
+      "j642057": {
+        "id": "j642057",
+        "algorithm": "SSSP",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r730533",
+          "r684142",
+          "r520585",
+          "r824579",
+          "r702731"
+        ]
+      },
+      "j741535": {
+        "id": "j741535",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_9-fb",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r724906",
+          "r855669",
+          "r595190",
+          "r667591",
+          "r523185"
+        ]
+      },
+      "j536264": {
+        "id": "j536264",
+        "algorithm": "LCC",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r658642",
+          "r854981",
+          "r754568",
+          "r521616",
+          "r877837"
+        ]
+      },
+      "j570920": {
+        "id": "j570920",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r862708",
+          "r822078",
+          "r569493",
+          "r566061",
+          "r575192"
+        ]
+      },
+      "j659828": {
+        "id": "j659828",
+        "algorithm": "PR",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r600780",
+          "r476162",
+          "r665159",
+          "r753790",
+          "r763321"
+        ]
+      },
+      "j681325": {
+        "id": "j681325",
+        "algorithm": "BFS",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r656199",
+          "r621239",
+          "r815702",
+          "r846292",
+          "r851208"
+        ]
+      },
+      "j809395": {
+        "id": "j809395",
+        "algorithm": "WCC",
+        "dataset": "datagen-8_7-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r680649",
+          "r896709",
+          "r637798",
+          "r521199",
+          "r736402"
+        ]
+      },
+      "j584143": {
+        "id": "j584143",
+        "algorithm": "CDLP",
+        "dataset": "graph500-25",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r485004",
+          "r690289",
+          "r596324",
+          "r843139",
+          "r556571"
+        ]
+      },
+      "j629518": {
+        "id": "j629518",
+        "algorithm": "CDLP",
+        "dataset": "datagen-8_8-zf",
+        "scale": "1",
+        "repetition": "5",
+        "runs": [
+          "r567240",
+          "r610244",
+          "r592412",
+          "r892086",
+          "r729359"
+        ]
+      }
+    },
+    "runs": {
+      "r566061": {
+        "id": "r566061",
+        "timestamp": "1512195211395",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "378.423",
+        "processing_time": "1.077"
+      },
+      "r824288": {
+        "id": "r824288",
+        "timestamp": "1512182725841",
+        "success": "true",
+        "load_time": "644.764",
+        "makespan": "372.528",
+        "processing_time": "1.485"
+      },
+      "r518020": {
+        "id": "r518020",
+        "timestamp": "1512133419023",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "50.473",
+        "processing_time": "1.177"
+      },
+      "r813275": {
+        "id": "r813275",
+        "timestamp": "1512175325881",
+        "success": "true",
+        "load_time": "1434.250",
+        "makespan": "45.498",
+        "processing_time": "0.439"
+      },
+      "r721680": {
+        "id": "r721680",
+        "timestamp": "1512172204976",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "36.140",
+        "processing_time": "1.430"
+      },
+      "r668880": {
+        "id": "r668880",
+        "timestamp": "1512204850686",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "19.411",
+        "processing_time": "0.197"
+      },
+      "r704300": {
+        "id": "r704300",
+        "timestamp": "1512171792525",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "40.782",
+        "processing_time": "1.504"
+      },
+      "r468232": {
+        "id": "r468232",
+        "timestamp": "1512160909042",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "509.940",
+        "processing_time": "45.541"
+      },
+      "r486180": {
+        "id": "r486180",
+        "timestamp": "1512139028590",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "525.482",
+        "processing_time": "57.905"
+      },
+      "r619990": {
+        "id": "r619990",
+        "timestamp": "1512134907821",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "41.576",
+        "processing_time": "0.278"
+      },
+      "r520585": {
+        "id": "r520585",
+        "timestamp": "1512166399797",
+        "success": "true",
+        "load_time": "791.042",
+        "makespan": "868.793",
+        "processing_time": "1.570"
+      },
+      "r485004": {
+        "id": "r485004",
+        "timestamp": "1512133315941",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "57.227",
+        "processing_time": "12.871"
+      },
+      "r523185": {
+        "id": "r523185",
+        "timestamp": "1512172441244",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "34.738",
+        "processing_time": "0.335"
+      },
+      "r753790": {
+        "id": "r753790",
+        "timestamp": "1512145794012",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "490.241",
+        "processing_time": "4.719"
+      },
+      "r560094": {
+        "id": "r560094",
+        "timestamp": "1512181162542",
+        "success": "true",
+        "load_time": "644.764",
+        "makespan": "390.470",
+        "processing_time": "1.479"
+      },
+      "r640763": {
+        "id": "r640763",
+        "timestamp": "1512137060637",
+        "success": "true",
+        "load_time": "546.647",
+        "makespan": "23.322",
+        "processing_time": "0.350"
+      },
+      "r855910": {
+        "id": "r855910",
+        "timestamp": "1512187290988",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "458.369",
+        "processing_time": "63.482"
+      },
+      "r909104": {
+        "id": "r909104",
+        "timestamp": "1512134283505",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "42.494",
+        "processing_time": "0.900"
+      },
+      "r773035": {
+        "id": "r773035",
+        "timestamp": "1512140785955",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "381.069",
+        "processing_time": "5.487"
+      },
+      "r530399": {
+        "id": "r530399",
+        "timestamp": "1512198335469",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "407.613",
+        "processing_time": "12.930"
+      },
+      "r829042": {
+        "id": "r829042",
+        "timestamp": "1512172106882",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "59.199",
+        "processing_time": "20.413"
+      },
+      "r918697": {
+        "id": "r918697",
+        "timestamp": "1512204894772",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "34.409",
+        "processing_time": "10.991"
+      },
+      "r789080": {
+        "id": "r789080",
+        "timestamp": "1512162854505",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "397.505",
+        "processing_time": "5.622"
+      },
+      "r724784": {
+        "id": "r724784",
+        "timestamp": "1512202470286",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "388.061",
+        "processing_time": "15.461"
+      },
+      "r483589": {
+        "id": "r483589",
+        "timestamp": "1512175411950",
+        "success": "true",
+        "load_time": "1434.250",
+        "makespan": "3175.090",
+        "processing_time": "0.551"
+      },
+      "r843139": {
+        "id": "r843139",
+        "timestamp": "1512135328986",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "60.339",
+        "processing_time": "12.909"
+      },
+      "r739826": {
+        "id": "r739826",
+        "timestamp": "1512134080351",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "41.707",
+        "processing_time": "0.269"
+      },
+      "r803514": {
+        "id": "r803514",
+        "timestamp": "1512173388168",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "58.544",
+        "processing_time": "20.560"
+      },
+      "r780395": {
+        "id": "r780395",
+        "timestamp": "1512142353319",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "480.433",
+        "processing_time": "19.488"
+      },
+      "r695502": {
+        "id": "r695502",
+        "timestamp": "1512204957838",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "34.371",
+        "processing_time": "11.000"
+      },
+      "r877837": {
+        "id": "r877837",
+        "timestamp": "1512135548140",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "282.318",
+        "processing_time": "231.469"
+      },
+      "r607235": {
+        "id": "r607235",
+        "timestamp": "1512134171414",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "52.240",
+        "processing_time": "1.173"
+      },
+      "r844472": {
+        "id": "r844472",
+        "timestamp": "1512201647145",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "390.425",
+        "processing_time": "3.968"
+      },
+      "r877713": {
+        "id": "r877713",
+        "timestamp": "1512148609660",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "1073.953",
+        "processing_time": "22.459"
+      },
+      "r698285": {
+        "id": "r698285",
+        "timestamp": "1512193663925",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "491.600",
+        "processing_time": "20.678"
+      },
+      "r530405": {
+        "id": "r530405",
+        "timestamp": "1512206962803",
+        "success": "true",
+        "load_time": "708.054",
+        "makespan": "21.009",
+        "processing_time": "0.227"
+      },
+      "r736402": {
+        "id": "r736402",
+        "timestamp": "1512195912653",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "479.939",
+        "processing_time": "4.993"
+      },
+      "r592412": {
+        "id": "r592412",
+        "timestamp": "1512153435685",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "443.123",
+        "processing_time": "18.634"
+      },
+      "r530521": {
+        "id": "r530521",
+        "timestamp": "1512188794325",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "464.671",
+        "processing_time": "3.905"
+      },
+      "r851208": {
+        "id": "r851208",
+        "timestamp": "1512141564142",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "395.094",
+        "processing_time": "1.270"
+      },
+      "r665159": {
+        "id": "r665159",
+        "timestamp": "1512159002369",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "459.405",
+        "processing_time": "4.731"
+      },
+      "r700365": {
+        "id": "r700365",
+        "timestamp": "1512172852702",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "64.672",
+        "processing_time": "22.850"
+      },
+      "r705893": {
+        "id": "r705893",
+        "timestamp": "1512190461897",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "408.192",
+        "processing_time": "3.929"
+      },
+      "r620139": {
+        "id": "r620139",
+        "timestamp": "1512205270251",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "23.578",
+        "processing_time": "0.871"
+      },
+      "r867118": {
+        "id": "r867118",
+        "timestamp": "1512173485260",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "65.092",
+        "processing_time": "22.942"
+      },
+      "r610244": {
+        "id": "r610244",
+        "timestamp": "1512155162154",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "438.283",
+        "processing_time": "18.141"
+      },
+      "r873192": {
+        "id": "r873192",
+        "timestamp": "1512192127449",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "402.363",
+        "processing_time": "15.671"
+      },
+      "r690289": {
+        "id": "r690289",
+        "timestamp": "1512133117785",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "58.460",
+        "processing_time": "12.846"
+      },
+      "r805746": {
+        "id": "r805746",
+        "timestamp": "1512173248994",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "36.022",
+        "processing_time": "1.480"
+      },
+      "r575192": {
+        "id": "r575192",
+        "timestamp": "1512193001623",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "329.728",
+        "processing_time": "1.107"
+      },
+      "r546262": {
+        "id": "r546262",
+        "timestamp": "1512172347152",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "58.204",
+        "processing_time": "20.447"
+      },
+      "r468500": {
+        "id": "r468500",
+        "timestamp": "1512184916544",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "391.584",
+        "processing_time": "18.594"
+      },
+      "r468467": {
+        "id": "r468467",
+        "timestamp": "1512205484517",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "30.839",
+        "processing_time": "10.397"
+      },
+      "r592121": {
+        "id": "r592121",
+        "timestamp": "1512181961699",
+        "success": "true",
+        "load_time": "644.764",
+        "makespan": "374.858",
+        "processing_time": "1.487"
+      },
+      "r596324": {
+        "id": "r596324",
+        "timestamp": "1512135439060",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "59.376",
+        "processing_time": "12.919"
+      },
+      "r822078": {
+        "id": "r822078",
+        "timestamp": "1512203300505",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "334.127",
+        "processing_time": "1.215"
+      },
+      "r739800": {
+        "id": "r739800",
+        "timestamp": "1512205988174",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "30.756",
+        "processing_time": "10.381"
+      },
+      "r846380": {
+        "id": "r846380",
+        "timestamp": "1512179450164",
+        "success": "true",
+        "load_time": "644.764",
+        "makespan": "431.450",
+        "processing_time": "1.492"
+      },
+      "r680649": {
+        "id": "r680649",
+        "timestamp": "1512189735520",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "363.467",
+        "processing_time": "4.868"
+      },
+      "r555930": {
+        "id": "r555930",
+        "timestamp": "1512206913740",
+        "success": "true",
+        "load_time": "708.054",
+        "makespan": "21.442",
+        "processing_time": "0.227"
+      },
+      "r756489": {
+        "id": "r756489",
+        "timestamp": "1512205793917",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "30.585",
+        "processing_time": "10.520"
+      },
+      "r772961": {
+        "id": "r772961",
+        "timestamp": "1512205181129",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "19.938",
+        "processing_time": "0.772"
+      },
+      "r815702": {
+        "id": "r815702",
+        "timestamp": "1512154382011",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "398.879",
+        "processing_time": "1.260"
+      },
+      "r825181": {
+        "id": "r825181",
+        "timestamp": "1512173700451",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "41.277",
+        "processing_time": "1.473"
+      },
+      "r810665": {
+        "id": "r810665",
+        "timestamp": "1512175234814",
+        "success": "true",
+        "load_time": "1434.250",
+        "makespan": "49.143",
+        "processing_time": "0.437"
+      },
+      "r516516": {
+        "id": "r516516",
+        "timestamp": "1512180342376",
+        "success": "true",
+        "load_time": "644.764",
+        "makespan": "397.281",
+        "processing_time": "1.599"
+      },
+      "r858646": {
+        "id": "r858646",
+        "timestamp": "1512171970711",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "35.599",
+        "processing_time": "1.453"
+      },
+      "r621239": {
+        "id": "r621239",
+        "timestamp": "1512143287480",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "387.272",
+        "processing_time": "1.295"
+      },
+      "r633450": {
+        "id": "r633450",
+        "timestamp": "1512138177402",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "429.745",
+        "processing_time": "5.506"
+      },
+      "r595190": {
+        "id": "r595190",
+        "timestamp": "1512173319067",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "35.816",
+        "processing_time": "0.349"
+      },
+      "r601808": {
+        "id": "r601808",
+        "timestamp": "1512178626367",
+        "success": "true",
+        "load_time": "1434.250",
+        "makespan": "38.999",
+        "processing_time": "0.408"
+      },
+      "r892086": {
+        "id": "r892086",
+        "timestamp": "1512159944684",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "436.337",
+        "processing_time": "18.133"
+      },
+      "r763321": {
+        "id": "r763321",
+        "timestamp": "1512161843331",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "476.120",
+        "processing_time": "4.723"
+      },
+      "r521199": {
+        "id": "r521199",
+        "timestamp": "1512184169400",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "374.495",
+        "processing_time": "5.268"
+      },
+      "r569493": {
+        "id": "r569493",
+        "timestamp": "1512188141164",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "323.113",
+        "processing_time": "1.105"
+      },
+      "r628274": {
+        "id": "r628274",
+        "timestamp": "1512172275071",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "37.512",
+        "processing_time": "1.461"
+      },
+      "r848456": {
+        "id": "r848456",
+        "timestamp": "1512134793750",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "51.711",
+        "processing_time": "1.198"
+      },
+      "r719204": {
+        "id": "r719204",
+        "timestamp": "1512172700540",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "41.979",
+        "processing_time": "1.505"
+      },
+      "r557305": {
+        "id": "r557305",
+        "timestamp": "1512191307133",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "377.497",
+        "processing_time": "15.520"
+      },
+      "r855669": {
+        "id": "r855669",
+        "timestamp": "1512172039799",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "34.380",
+        "processing_time": "0.337"
+      },
+      "r600780": {
+        "id": "r600780",
+        "timestamp": "1512157050795",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "463.940",
+        "processing_time": "4.729"
+      },
+      "r533972": {
+        "id": "r533972",
+        "timestamp": "1512205593659",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "23.050",
+        "processing_time": "0.871"
+      },
+      "r590930": {
+        "id": "r590930",
+        "timestamp": "1512205075006",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "19.021",
+        "processing_time": "0.232"
+      },
+      "r556571": {
+        "id": "r556571",
+        "timestamp": "1512135975283",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "58.261",
+        "processing_time": "12.915"
+      },
+      "r511555": {
+        "id": "r511555",
+        "timestamp": "1512206863675",
+        "success": "true",
+        "load_time": "708.054",
+        "makespan": "22.675",
+        "processing_time": "0.371"
+      },
+      "r667591": {
+        "id": "r667591",
+        "timestamp": "1512171648325",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "37.681",
+        "processing_time": "0.516"
+      },
+      "r790817": {
+        "id": "r790817",
+        "timestamp": "1512172593472",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "65.763",
+        "processing_time": "22.793"
+      },
+      "r658642": {
+        "id": "r658642",
+        "timestamp": "1512134992894",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "279.767",
+        "processing_time": "228.253"
+      },
+      "r724906": {
+        "id": "r724906",
+        "timestamp": "1512172784632",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "35.093",
+        "processing_time": "0.336"
+      },
+      "r567240": {
+        "id": "r567240",
+        "timestamp": "1512156108492",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "449.690",
+        "processing_time": "18.245"
+      },
+      "r629131": {
+        "id": "r629131",
+        "timestamp": "1512172511353",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "41.259",
+        "processing_time": "1.492"
+      },
+      "r467113": {
+        "id": "r467113",
+        "timestamp": "1512186409821",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "482.142",
+        "processing_time": "71.615"
+      },
+      "r630648": {
+        "id": "r630648",
+        "timestamp": "1512205690802",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "31.159",
+        "processing_time": "10.233"
+      },
+      "r812944": {
+        "id": "r812944",
+        "timestamp": "1512132918595",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "51.620",
+        "processing_time": "1.323"
+      },
+      "r648556": {
+        "id": "r648556",
+        "timestamp": "1512172958786",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "57.803",
+        "processing_time": "20.501"
+      },
+      "r850703": {
+        "id": "r850703",
+        "timestamp": "1512171721431",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "37.074",
+        "processing_time": "1.442"
+      },
+      "r798037": {
+        "id": "r798037",
+        "timestamp": "1512205021917",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "22.608",
+        "processing_time": "0.870"
+      },
+      "r641012": {
+        "id": "r641012",
+        "timestamp": "1512146844283",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "404.429",
+        "processing_time": "5.676"
+      },
+      "r896709": {
+        "id": "r896709",
+        "timestamp": "1512194529255",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "334.777",
+        "processing_time": "4.979"
+      },
+      "r536335": {
+        "id": "r536335",
+        "timestamp": "1512136079369",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "45.279",
+        "processing_time": "0.280"
+      },
+      "r702731": {
+        "id": "r702731",
+        "timestamp": "1512165463653",
+        "success": "true",
+        "load_time": "791.042",
+        "makespan": "453.574",
+        "processing_time": "1.579"
+      },
+      "r854981": {
+        "id": "r854981",
+        "timestamp": "1512134370577",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "282.776",
+        "processing_time": "230.246"
+      },
+      "r883118": {
+        "id": "r883118",
+        "timestamp": "1512137235248",
+        "success": "true",
+        "load_time": "546.647",
+        "makespan": "18.338",
+        "processing_time": "0.175"
+      },
+      "r730533": {
+        "id": "r730533",
+        "timestamp": "1512164450448",
+        "success": "true",
+        "load_time": "791.042",
+        "makespan": "502.672",
+        "processing_time": "1.576"
+      },
+      "r919341": {
+        "id": "r919341",
+        "timestamp": "1512133028689",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "42.990",
+        "processing_time": "0.925"
+      },
+      "r684142": {
+        "id": "r684142",
+        "timestamp": "1512167810073",
+        "success": "true",
+        "load_time": "791.042",
+        "makespan": "461.339",
+        "processing_time": "1.557"
+      },
+      "r754568": {
+        "id": "r754568",
+        "timestamp": "1512133530101",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "282.782",
+        "processing_time": "230.611"
+      },
+      "r729359": {
+        "id": "r729359",
+        "timestamp": "1512144847780",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "435.037",
+        "processing_time": "18.148"
+      },
+      "r691748": {
+        "id": "r691748",
+        "timestamp": "1512137194168",
+        "success": "true",
+        "load_time": "546.647",
+        "makespan": "16.674",
+        "processing_time": "0.191"
+      },
+      "r910132": {
+        "id": "r910132",
+        "timestamp": "1512173593337",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "65.564",
+        "processing_time": "22.909"
+      },
+      "r841311": {
+        "id": "r841311",
+        "timestamp": "1512204727535",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "32.237",
+        "processing_time": "10.501"
+      },
+      "r637798": {
+        "id": "r637798",
+        "timestamp": "1512200004812",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "389.194",
+        "processing_time": "4.820"
+      },
+      "r767114": {
+        "id": "r767114",
+        "timestamp": "1512204786600",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "33.687",
+        "processing_time": "11.152"
+      },
+      "r650596": {
+        "id": "r650596",
+        "timestamp": "1512200742982",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "466.751",
+        "processing_time": "3.907"
+      },
+      "r731902": {
+        "id": "r731902",
+        "timestamp": "1512205432426",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "22.974",
+        "processing_time": "0.826"
+      },
+      "r823258": {
+        "id": "r823258",
+        "timestamp": "1512137110053",
+        "success": "true",
+        "load_time": "546.647",
+        "makespan": "17.609",
+        "processing_time": "0.211"
+      },
+      "r888888": {
+        "id": "r888888",
+        "timestamp": "-1",
+        "success": "false",
+        "load_time": "-1",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r999999": {
+        "id": "r999999",
+        "timestamp": "-1",
+        "success": "false",
+        "load_time": "-1",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r777777": {
+        "id": "r777777",
+        "timestamp": "-1",
+        "success": "false",
+        "load_time": "-1",
+        "makespan": "nan",
+        "processing_time": "nan"
+      },
+      "r596893": {
+        "id": "r596893",
+        "timestamp": "1512205748857",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "20.169",
+        "processing_time": "0.251"
+      },
+      "r657615": {
+        "id": "r657615",
+        "timestamp": "1512205850985",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "21.762",
+        "processing_time": "0.939"
+      },
+      "r500437": {
+        "id": "r500437",
+        "timestamp": "1512132827541",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "45.408",
+        "processing_time": "0.367"
+      },
+      "r590033": {
+        "id": "r590033",
+        "timestamp": "1512173140936",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "64.887",
+        "processing_time": "22.879"
+      },
+      "r846292": {
+        "id": "r846292",
+        "timestamp": "1512144063636",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "402.004",
+        "processing_time": "1.254"
+      },
+      "r519135": {
+        "id": "r519135",
+        "timestamp": "1512133962274",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "53.965",
+        "processing_time": "1.181"
+      },
+      "r905874": {
+        "id": "r905874",
+        "timestamp": "1512133870189",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "44.796",
+        "processing_time": "0.283"
+      },
+      "r519016": {
+        "id": "r519016",
+        "timestamp": "1512137152117",
+        "success": "true",
+        "load_time": "546.647",
+        "makespan": "17.819",
+        "processing_time": "0.174"
+      },
+      "r476162": {
+        "id": "r476162",
+        "timestamp": "1512158026103",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "481.952",
+        "processing_time": "4.744"
+      },
+      "r814944": {
+        "id": "r814944",
+        "timestamp": "1512196722913",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "389.339",
+        "processing_time": "13.071"
+      },
+      "r646963": {
+        "id": "r646963",
+        "timestamp": "1512205645722",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "20.063",
+        "processing_time": "0.871"
+      },
+      "r521616": {
+        "id": "r521616",
+        "timestamp": "1512136171433",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "281.594",
+        "processing_time": "230.833"
+      },
+      "r862708": {
+        "id": "r862708",
+        "timestamp": "1512185745687",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "335.582",
+        "processing_time": "1.230"
+      },
+      "r824579": {
+        "id": "r824579",
+        "timestamp": "1512168722263",
+        "success": "true",
+        "load_time": "791.042",
+        "makespan": "456.260",
+        "processing_time": "1.559"
+      },
+      "r760421": {
+        "id": "r760421",
+        "timestamp": "1512135886220",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "42.897",
+        "processing_time": "0.938"
+      },
+      "r462841": {
+        "id": "r462841",
+        "timestamp": "1512206815605",
+        "success": "true",
+        "load_time": "708.054",
+        "makespan": "21.541",
+        "processing_time": "0.225"
+      },
+      "r876775": {
+        "id": "r876775",
+        "timestamp": "1512147631464",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "521.164",
+        "processing_time": "21.547"
+      },
+      "r877985": {
+        "id": "r877985",
+        "timestamp": "1512205898054",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "18.876",
+        "processing_time": "0.189"
+      },
+      "r826110": {
+        "id": "r826110",
+        "timestamp": "1512205226186",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "19.433",
+        "processing_time": "0.179"
+      },
+      "r832912": {
+        "id": "r832912",
+        "timestamp": "1512205387376",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "19.733",
+        "processing_time": "0.876"
+      },
+      "r625754": {
+        "id": "r625754",
+        "timestamp": "1512150097050",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "2948.427",
+        "processing_time": "5.612"
+      },
+      "r625115": {
+        "id": "r625115",
+        "timestamp": "1512197493173",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "404.712",
+        "processing_time": "3.922"
+      },
+      "r792115": {
+        "id": "r792115",
+        "timestamp": "1512206764540",
+        "success": "true",
+        "load_time": "708.054",
+        "makespan": "23.027",
+        "processing_time": "0.249"
+      },
+      "r462728": {
+        "id": "r462728",
+        "timestamp": "1512205942115",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "20.569",
+        "processing_time": "0.875"
+      },
+      "r592602": {
+        "id": "r592602",
+        "timestamp": "1512171875625",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "58.077",
+        "processing_time": "20.398"
+      },
+      "r752241": {
+        "id": "r752241",
+        "timestamp": "1512205119070",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "33.773",
+        "processing_time": "10.934"
+      },
+      "r534254": {
+        "id": "r534254",
+        "timestamp": "1512205541593",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "23.052",
+        "processing_time": "0.831"
+      },
+      "r884823": {
+        "id": "r884823",
+        "timestamp": "1512134708674",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "43.201",
+        "processing_time": "0.895"
+      },
+      "r591907": {
+        "id": "r591907",
+        "timestamp": "1512178706431",
+        "success": "true",
+        "load_time": "1434.250",
+        "makespan": "44.666",
+        "processing_time": "0.424"
+      },
+      "r699568": {
+        "id": "r699568",
+        "timestamp": "1512173054850",
+        "success": "true",
+        "load_time": "1494.907",
+        "makespan": "42.006",
+        "processing_time": "1.510"
+      },
+      "r656199": {
+        "id": "r656199",
+        "timestamp": "1512140017793",
+        "success": "true",
+        "load_time": "626.987",
+        "makespan": "378.141",
+        "processing_time": "1.240"
+      },
+      "r674204": {
+        "id": "r674204",
+        "timestamp": "1512133228010",
+        "success": "true",
+        "load_time": "609.557",
+        "makespan": "42.475",
+        "processing_time": "0.954"
+      },
+      "r618793": {
+        "id": "r618793",
+        "timestamp": "1512199159624",
+        "success": "true",
+        "load_time": "477.594",
+        "makespan": "397.986",
+        "processing_time": "15.576"
+      },
+      "r656234": {
+        "id": "r656234",
+        "timestamp": "1512205324309",
+        "success": "true",
+        "load_time": "501.336",
+        "makespan": "33.610",
+        "processing_time": "10.889"
+      }
+    }
+  }
+}
