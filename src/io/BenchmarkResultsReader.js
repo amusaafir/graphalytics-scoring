@@ -1,6 +1,7 @@
 const yargs = require('yargs');
 const filesystem = require('fs');
 const _ = require('lodash');
+const config = require('../config.json');
 const BenchmarkResultsFile = require('../benchmark/BenchmarkResultsFile.js');
 
 /**
@@ -16,11 +17,16 @@ class BenchmarkResultsReader {
         // Get the results directory path from the argument option.
         let resultsDir = yargs.argv['results'];
 
-        // Get all the file names from the results directory.
+        // Get all the file names (of the entries) from the results directory.
         let filenames = this.getBenchmarkResultsFileNames(resultsDir);
 
+        // Return all the entries (file names) that should not be skipped.
+        let requestedFileNames = this.getRequestedFileNames(filenames);
+
+        console.log(requestedFileNames);
+
         // Extract the relevant data from the all the benchmark results files.
-        return this.getBenchmarkResultsPerScale(resultsDir, filenames);
+        return this.getBenchmarkResultsPerScale(resultsDir, requestedFileNames);
     }
 
     /**
@@ -86,6 +92,17 @@ class BenchmarkResultsReader {
             console.error('Unable to open the given results directory.');
             throw err;
         }
+    }
+
+    getRequestedFileNames(filenames) {
+        let requestedFileNames = _.filter(filenames, filename => {
+            return (!_.includes(config.skipFiles, filename));
+        });
+
+        if (_.isEmpty(requestedFileNames))
+            console.error('No file names requested. Have you skipped them all?');
+
+        return requestedFileNames;
     }
 }
 
