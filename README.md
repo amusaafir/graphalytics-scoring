@@ -23,7 +23,8 @@ Specify the `scoring` parameter as **tournament** to compute the results for a t
 
 ##### Note: 
 * The `results` parameter specifies the folder (relative/absolute) path of the Graphalytics benchmark results.
-* The competition results are placed in the `output`folder.
+* The competition results are placed in the `output` folder.
+* You can ignore datasets and/or algorithms (i.e., not take their score into account by a competition for all platforms) in the `config.json` file.
 
 ### Tests
 
