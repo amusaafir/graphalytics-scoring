@@ -45,7 +45,7 @@ class ResultsInScale {
     }
 
     /**
-     * Skip undesirable Algorithm and Dataset data specified from the config.json file. These shall not be
+     * Skip undesirable Algorithm and Dataset data specified in the config.json file. These shall not be
      * taken into account when computing the competition results.
      *
      * TODO: Also allow platform to be skipped: to accomplish this, make sure to iterate over availablePADs.platform
@@ -61,11 +61,10 @@ class ResultsInScale {
             return !_.includes(undesirableValues, value);
         });
 
-        console.log('Desirable:');
-        console.log(desirableValues);
-
-        if (_.isEmpty(desirableValues))
-            console.error('Desirable values is empty when filtering .');
+        if (_.isEmpty(desirableValues)) {
+            console.error('Desirable values is empty when filtered by the following undesirable values: ');
+            console.log(undesirableValues);
+        }
 
         return desirableValues;
     }

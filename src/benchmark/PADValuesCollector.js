@@ -62,7 +62,7 @@ class PADValuesCollector {
 
         // In case the job is not found, add the 'not found' values to the values object.
         if (!benchmarkJob) {
-            console.log('Job not found for PAD: %s %s %s', platformId, algorithm, dataset);
+            console.log('Job not found for PAD: %s, %s, %s.', platformId, algorithm, dataset);
             padValues[algorithm][platformId][dataset] = valuesPerMetric;
 
             return;
