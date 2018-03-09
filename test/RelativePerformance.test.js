@@ -8,7 +8,7 @@ it('should remove unknown values - removeUnknownValues()', () => {
     let values = [1, UnknownValue, 4, 3, 8];
 
     // Act.
-    let removedUnknownvalues = scoring.removeUnkownValues(values);
+    let removedUnknownvalues = scoring.removeUnknownValues(values);
 
     // Assert.
     expect(removedUnknownvalues.sort()).toEqual([1, 3, 4, 8]);

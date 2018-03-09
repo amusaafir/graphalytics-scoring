@@ -8,6 +8,7 @@ const UnknownValue = require('../../benchmark/UnknownValue');
 class Tournament extends Scoring {
     constructor() {
         super();
+
         this.score = {
             winner: 1,
             loser: 0,
@@ -25,6 +26,7 @@ class Tournament extends Scoring {
     computeAlgorithmTableScore(metric, availablePADs, tableRows) {
         let tableRowsArray = _.values(tableRows);
 
+        // Compute the score for each dataset.
         _.forEach(availablePADs.datasets, dataset => {
             for (let i = 0; i < tableRowsArray.length; i++) {
                 for (let p = (i+1); p < tableRowsArray.length; p++) {
@@ -41,6 +43,7 @@ class Tournament extends Scoring {
             }
         });
 
+        // Compute the total score of the row.
         this.computeTotalScore(tableRows);
 
         return tableRows;
@@ -79,6 +82,7 @@ class Tournament extends Scoring {
         let cellValA = cellA.value;
         let cellValB = cellB.value;
 
+        // In case a cell has an unknown value, assign the max integer to it.
         if (cellValA == UnknownValue)
             cellValA = Number.MAX_SAFE_INTEGER;
 

@@ -78,7 +78,7 @@ class RelativePerformance extends Scoring {
      * @param values
      * @returns {Array}
      */
-    removeUnkownValues(values) {
+    removeUnknownValues(values) {
         return _.filter(values, value => {
             return value >= 0;
         });
@@ -97,7 +97,7 @@ class RelativePerformance extends Scoring {
 
         let valuesForDataset = _.map(_.map(datasetsPerPlatform, dataset), 'value');
 
-        return this.removeUnkownValues(valuesForDataset);
+        return this.removeUnknownValues(valuesForDataset);
     }
 }
 
